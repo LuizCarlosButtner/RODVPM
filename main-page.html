@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+        header, nav, main, footer {
+            margin-bottom: 16px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 12px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        @media (max-width: 768px) {
+            .container { padding: 16px; }
+            header h1 { font-size: 1.6rem; }
+            nav ul { flex-direction: column; gap: 8px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bem-vindo</h1>
+            <p></p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="home">
+                <h2>Seção Home</h2>
+                <p>Conteúdo principal do site.</p>
+            </section>
+
+            <section id="sobre">
+                <h2>Seção Sobre</h2>
+                <p>Descrição breve sobre o projeto.</p>
+            </section>
+
+            <section id="contato">
+                <h2>Seção Contato</h2>
+                <p>Informações de contato ou formulário.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Seu Nome - Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
