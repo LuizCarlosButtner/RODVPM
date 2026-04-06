@@ -42,23 +42,25 @@
             background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
         }
 
-        /* Padrão da Régua de Acrílico para a Navbar */
+        /* Padrão da Régua Escolar Realista para a Navbar */
         .bg-ruler {
-            background-color: #f8fafc; /* Branco Acrílico */
+            background-color: #ffffff; /* Branco puro de régua */
             background-image:
-                /* Traços longos (Centímetros) */
-                repeating-linear-gradient(to right, transparent, transparent 99px, #0f172a 99px, #0f172a 100px),
-                /* Traços médios (Meio Centímetro) */
-                repeating-linear-gradient(to right, transparent, transparent 49px, #475569 49px, #475569 50px),
-                /* Traços curtos (Milímetros) */
-                repeating-linear-gradient(to right, transparent, transparent 9px, #94a3b8 9px, #94a3b8 10px);
+                /* Linha de base no topo */
+                linear-gradient(to bottom, #000000 2px, transparent 2px),
+                /* Traços longos e grossos (Centímetros - a cada 100px) */
+                repeating-linear-gradient(to right, transparent, transparent 98px, #000000 98px, #000000 100px),
+                /* Traços médios (Meio Centímetro - a cada 50px) */
+                repeating-linear-gradient(to right, transparent, transparent 49px, #1e293b 49px, #1e293b 50px),
+                /* Traços curtos (Milímetros - a cada 10px) */
+                repeating-linear-gradient(to right, transparent, transparent 9px, #64748b 9px, #64748b 10px);
             background-size: 
-                100% 20px, 
-                100% 12px, 
-                100% 6px;
+                100% 100%,
+                100% 28px, /* Altura do cm */
+                100% 18px, /* Altura do meio cm */
+                100% 10px; /* Altura do mm */
             background-repeat: no-repeat;
             background-position: top left;
-            border-top: 1px solid #cbd5e1;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
         }
     </style>
@@ -88,10 +90,10 @@
             
         </div>
 
-        <!-- Seção Inferior: Menu de Navegação (Estilo Régua com Ferramentas) -->
+        <!-- Seção Inferior: Menu de Navegação (Estilo Régua Escolar) -->
         <nav class="w-full bg-ruler relative z-20">
-            <!-- pt-6 afasta o texto para baixo para dar espaço aos traços da régua -->
-            <ul class="flex w-full items-center justify-center m-0 p-0 list-none flex-wrap sm:flex-nowrap max-w-[1200px] mx-auto pt-6 pb-2">
+            <!-- pt-10 afasta o texto mais para baixo para não encostar nos traços longos da régua -->
+            <ul class="flex w-full items-center justify-center m-0 p-0 list-none flex-wrap sm:flex-nowrap max-w-[1200px] mx-auto pt-10 pb-2">
                 
                 <!-- Item 1: Profissional (Ícone: Compasso/Plantas) -->
                 <li class="flex-1 border-r border-gray-300 last:border-r-0">
