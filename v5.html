@@ -31,15 +31,10 @@
         /* Padrão do Tapete de Corte (Cutting Mat) - Baseado na Logo */
         .bg-cutting-mat {
             background-color: #164639; /* Verde escuro base da imagem */
-            background-image:
-                /* Linhas principais mais fortes (100px) */
-                linear-gradient(rgba(255,255,255,0.15) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255,255,255,0.15) 1px, transparent 1px),
-                /* Linhas secundárias mais finas (20px) */
-                linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
-            background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-            background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+            background-image: url('img/9187364981762349876.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         /* Padrão da Régua Escolar Realista para a Navbar */
@@ -71,7 +66,7 @@
     <header class="w-full shadow-lg relative z-10 bg-cutting-mat">
         
         <!-- Seção Superior: Logo e Frase -->
-        <div class="flex items-center justify-between w-full min-h-[120px] px-4 md:px-8 py-4 max-w-[1400px] mx-auto">
+        <div class="flex items-center justify-between w-full h-[280px] px-4 md:px-8 py-4 max-w-[1400px] mx-auto">
             
             <!-- Esquerda: Logo (Ocupa 65%) -->
             <div class="w-[65%] flex items-center pr-4">
@@ -337,12 +332,6 @@
 
             </div>
 
-            <!-- Botão Ver Portfólio (Centralizado abaixo da grade) -->
-            <div class="w-full flex justify-center mt-10 mb-4">
-                <button class="bg-[#0a0f18] hover:bg-gray-800 text-white text-sm md:text-base font-bold py-3 px-10 transition-colors shadow-md tracking-wide">
-                    Ver portfólio
-                </button>
-            </div>
         </div>
     </main>
 
@@ -429,7 +418,7 @@
 
     <!-- Seção: Clientes (Fundo Branco Intercalado) -->
     <section id="clientes" class="w-full bg-white py-20 border-t border-gray-100">
-        <div class="max-w-[1200px] mx-auto px-4 md:px-8">
+        <div class="max-w-[1500px] mx-auto px-4 md:px-8">
             
             <!-- Título da Seção -->
             <div class="text-center mb-16">
@@ -438,85 +427,80 @@
             </div>
 
             <!-- Container Principal: Grid de Logos (Esquerda) e Info Card (Direita) -->
-            <div class="flex flex-col lg:flex-row gap-12 items-center lg:items-start">
+            <div class="flex flex-col lg:flex-row gap-20 items-center lg:items-stretch">
                 
                 <!-- Coluna Esquerda: Grid de Logos e Botão -->
-                <div class="w-full lg:w-[55%] flex flex-col items-center">
+                <div class="w-full lg:w-1/2 flex flex-col items-center">
                     
                     <!-- Grid 3x4 (12 espaços para logos PNG transparentes) -->
                     <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full">
                         
                         <!-- Substitua os "src" abaixo pelo caminho das suas imagens PNG -->
-                        <!-- Exemplo 1 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+1" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 1 -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <img src="img/Logos Clientes/1.png" alt="Logo Cliente" class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
                         </div>
-                        <!-- Exemplo 2 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+2" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 2 -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <img src="img/Logos Clientes/2.png" alt="Logo Cliente" class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
                         </div>
-                        <!-- Exemplo 3 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+3" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 3 -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <img src="img/Logos Clientes/3.png" alt="Logo Cliente" class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
                         </div>
-                        <!-- Exemplo 4 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+4" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 4 -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <img src="img/Logos Clientes/4.png" alt="Logo Cliente" class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
                         </div>
-                        <!-- Exemplo 5 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+5" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 5 -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <img src="img/Logos Clientes/5.png" alt="Logo Cliente" class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
                         </div>
-                        <!-- Exemplo 6 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+6" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 6 -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <img src="img/Logos Clientes/6.png" alt="Logo Cliente" class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
                         </div>
-                        <!-- Exemplo 7 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+7" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 7 -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <img src="img/Logos Clientes/7.png" alt="Logo Cliente" class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
                         </div>
-                        <!-- Exemplo 8 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+8" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 8 -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <img src="img/Logos Clientes/8.png" alt="Logo Cliente" class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
                         </div>
-                        <!-- Exemplo 9 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+9" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 9 -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <img src="img/Logos Clientes/9.png" alt="Logo Cliente" class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
                         </div>
-                        <!-- Exemplo 10 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+10" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 10 -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <img src="img/Logos Clientes/10.png" alt="Logo Cliente" class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
                         </div>
-                        <!-- Exemplo 11 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+11" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 11 -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <img src="img/Logos Clientes/11.png" alt="Logo Cliente" class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity">
                         </div>
-                        <!-- Exemplo 12 -->
-                        <div class="bg-white border border-gray-200 shadow-[0_2px_15px_rgba(0,0,0,0.04)] rounded-2xl flex items-center justify-center p-4 aspect-square hover:shadow-md transition-shadow">
-                            <img src="https://via.placeholder.com/150x80/ffffff/000000?text=LOGO+12" alt="Logo Cliente" class="max-w-full max-h-full object-contain mix-blend-multiply opacity-80 hover:opacity-100">
+                        <!-- Logo 12 (Vazio - sem logo para preencher o grid) -->
+                        <div class="flex items-center justify-center p-4 aspect-square">
+                            <div class="text-gray-300 text-sm text-center">Seu logo aqui</div>
                         </div>
 
                     </div>
 
-                    <!-- Botão Ver Mais -->
-                    <button class="mt-10 bg-[#0a0f18] hover:bg-gray-800 text-white text-sm font-bold py-3 px-12 rounded-lg transition-colors shadow-md">
-                        Ver mais
-                    </button>
                 </div>
 
                 <!-- Coluna Direita: Info Card -->
-                <div class="w-full lg:w-[45%] flex flex-col mt-8 lg:mt-0">
-                    <div class="relative w-full flex flex-col items-center">
+                <!-- Ajuste: Mudado para lg:w-1/2 (50%) para divisão igual -->
+                <div class="w-full lg:w-1/2 flex flex-col mt-8 lg:mt-0">
+                    <!-- Ajuste: Adicionado h-full para herdar a altura máxima -->
+                    <div class="relative w-full h-full flex flex-col items-center">
                         
                         <!-- Colagem / Imagem Principal da Maquete -->
-                        <div class="relative w-full max-w-md">
-                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Maquete de Empreendimento" class="w-full h-[320px] md:h-[400px] object-cover shadow-lg rounded-sm">
+                        <!-- Ajuste: Aumentado max-w de max-w-md para max-w-[600px] -->
+                        <div class="relative w-full max-w-[600px] flex-1 flex flex-col pb-6">
+                            <!-- Ajuste: Removido h-[400px], substituído por h-full e min-h-[320px] -->
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Maquete de Empreendimento" class="w-full h-full min-h-[320px] object-cover shadow-lg rounded-sm">
                             
-                            <!-- Etiqueta Branca Sobreposta (Logo Maketarte) -->
-                            <div class="absolute -top-4 -left-4 md:-left-8 bg-white px-5 py-3 shadow-[0_5px_15px_rgba(0,0,0,0.1)] border border-gray-100 z-10 flex flex-col items-center">
-                                <span class="font-bold text-gray-800 text-lg tracking-wide leading-none">maketarte</span>
-                                <span class="text-gray-500 text-[10px] tracking-widest uppercase">maquetes</span>
-                            </div>
                         </div>
 
                         <!-- Caixa de Texto Inferior (Sobreposta) -->
@@ -601,11 +585,6 @@
                     <p class="text-gray-500 text-sm leading-relaxed mb-8 text-justify">
                         A precisão é um pilar central em nosso trabalho, e um aspecto que estamos constantemente revisando e reavaliando. Trabalhamos diariamente para ser um parceiro eficiente, utilizando materiais de ponta e processos tecnológicos (como impressão 3D de alta fidelidade e cortes a laser) que trazem mais realismo e fidelidade à sua ideia original.
                     </p>
-                    
-                    <!-- Botão no Verde Escuro com Hover ligeiramente mais claro -->
-                    <button class="bg-[#0c3a33] hover:bg-[#1b5e52] text-white text-xs md:text-sm font-bold uppercase tracking-widest py-3 px-8 transition-colors shadow-sm">
-                        Saber Mais
-                    </button>
 
                 </div>
 
@@ -734,7 +713,7 @@
             <div class="flex-1 flex justify-end">
                 <!-- Botão Fechar -->
                 <button onclick="closeModal()" class="text-white text-sm font-bold tracking-widest hover:text-gray-400 transition-colors uppercase">
-                    Close
+                    Fechar
                 </button>
             </div>
         </div>
@@ -865,7 +844,7 @@
             mainImg.src = currentPack[currentIndex];
             
             // Atualiza o contador (ex: "1 of 6")
-            counter.innerText = `${currentIndex + 1} of ${currentPack.length}`;
+            counter.innerText = `${currentIndex + 1} de ${currentPack.length}`;
             
             // Renderiza barra de miniaturas
             renderThumbnails();
