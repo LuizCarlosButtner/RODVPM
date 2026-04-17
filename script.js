@@ -2,84 +2,82 @@
 const imagePacks = [
     // Pack 0: Summit Towers
     [
-        "img/1.Maquetes profissionais/1. Summit Towers - WE Construtora/1.JPG",
-        "img/1.Maquetes profissionais/1. Summit Towers - WE Construtora/2.JPG",
-        "img/1.Maquetes profissionais/1. Summit Towers - WE Construtora/3.JPG",
-        "img/1.Maquetes profissionais/1. Summit Towers - WE Construtora/4.JPG",
-        "img/1.Maquetes profissionais/1. Summit Towers - WE Construtora/5.JPG",
-        "img/1.Maquetes profissionais/1. Summit Towers - WE Construtora/6.JPG",
-        "img/1.Maquetes profissionais/1. Summit Towers - WE Construtora/7.JPG"
+        "img/maquetes_pro/summit_tower_01/1.JPG",
+        "img/maquetes_pro/summit_tower_01/2.JPG",
+        "img/maquetes_pro/summit_tower_01/3.JPG",
+        "img/maquetes_pro/summit_tower_01/4.JPG",
+        "img/maquetes_pro/summit_tower_01/5.JPG",
+        "img/maquetes_pro/summit_tower_01/6.JPG",
+        "img/maquetes_pro/summit_tower_01/7.JPG"
     ],
     // Pack 1: Horto Residence
     [
-        "img/1.Maquetes profissionais/2. Horto Residence - Construtora LIMAC/1.png",
-        "img/1.Maquetes profissionais/2. Horto Residence - Construtora LIMAC/2.png",
-        "img/1.Maquetes profissionais/2. Horto Residence - Construtora LIMAC/3.png",
-        "img/1.Maquetes profissionais/2. Horto Residence - Construtora LIMAC/4.png",
-        "img/1.Maquetes profissionais/2. Horto Residence - Construtora LIMAC/5.png",
-        "img/1.Maquetes profissionais/2. Horto Residence - Construtora LIMAC/6.png",
-        
+        "img/maquetes_pro/horto_residence_02/1.jpg",
+        "img/maquetes_pro/horto_residence_02/2.jpg",
+        "img/maquetes_pro/horto_residence_02/3.jpg",
+        "img/maquetes_pro/horto_residence_02/4.jpg",
+        "img/maquetes_pro/horto_residence_02/5.jpg",
+        "img/maquetes_pro/horto_residence_02/6.jpg",
     ],
     // Pack 2: Ferraz Junqueira
     [
-        "img/1.Maquetes profissionais/3. Ferraz Junqueira - Construtora Vilela Campos/1.JPG",
-        "img/1.Maquetes profissionais/3. Ferraz Junqueira - Construtora Vilela Campos/2.JPG",
-        "img/1.Maquetes profissionais/3. Ferraz Junqueira - Construtora Vilela Campos/3.JPG",
-        "img/1.Maquetes profissionais/3. Ferraz Junqueira - Construtora Vilela Campos/4.JPG",
-        "img/1.Maquetes profissionais/3. Ferraz Junqueira - Construtora Vilela Campos/5.JPG",
-        "img/1.Maquetes profissionais/3. Ferraz Junqueira - Construtora Vilela Campos/6.JPG",
-        "img/1.Maquetes profissionais/3. Ferraz Junqueira - Construtora Vilela Campos/7.JPG",
-        "img/1.Maquetes profissionais/3. Ferraz Junqueira - Construtora Vilela Campos/8.JPG",
-        "img/1.Maquetes profissionais/3. Ferraz Junqueira - Construtora Vilela Campos/9.JPG"
-        
+        "img/maquetes_pro/ferraz_junqueira_03/1.JPG",
+        "img/maquetes_pro/ferraz_junqueira_03/2.JPG",
+        "img/maquetes_pro/ferraz_junqueira_03/3.JPG",
+        "img/maquetes_pro/ferraz_junqueira_03/4.JPG",
+        "img/maquetes_pro/ferraz_junqueira_03/5.JPG",
+        "img/maquetes_pro/ferraz_junqueira_03/6.JPG",
+        "img/maquetes_pro/ferraz_junqueira_03/7.JPG",
+        "img/maquetes_pro/ferraz_junqueira_03/8.JPG",
+        "img/maquetes_pro/ferraz_junqueira_03/9.JPG"
     ],
     // Pack 3: Soul Ipanema
     [
-        "img/1.Maquetes profissionais/4. Soul Ipanema - On Construtora/1.JPG",
-        "img/1.Maquetes profissionais/4. Soul Ipanema - On Construtora/2.JPG",
-        "img/1.Maquetes profissionais/4. Soul Ipanema - On Construtora/3.JPG",
-        "img/1.Maquetes profissionais/4. Soul Ipanema - On Construtora/4.JPG",
-        "img/1.Maquetes profissionais/4. Soul Ipanema - On Construtora/5.JPG"
+        "img/maquetes_pro/soul_ipanema_04/1.JPG",
+        "img/maquetes_pro/soul_ipanema_04/2.JPG",
+        "img/maquetes_pro/soul_ipanema_04/3.JPG",
+        "img/maquetes_pro/soul_ipanema_04/4.JPG",
+        "img/maquetes_pro/soul_ipanema_04/5.JPG"
     ],
     // Pack 4: Privilége
     [
-        "img/1.Maquetes profissionais/5. Privilége - On Construtora/1.JPG",
-        "img/1.Maquetes profissionais/5. Privilége - On Construtora/2.JPG",
-        "img/1.Maquetes profissionais/5. Privilége - On Construtora/3.JPG",
-        "img/1.Maquetes profissionais/5. Privilége - On Construtora/4.JPG",
-        "img/1.Maquetes profissionais/5. Privilége - On Construtora/5.JPG"
+        "img/maquetes_pro/privilege_05/1.JPG",
+        "img/maquetes_pro/privilege_05/2.JPG",
+        "img/maquetes_pro/privilege_05/3.JPG",
+        "img/maquetes_pro/privilege_05/4.JPG",
+        "img/maquetes_pro/privilege_05/5.JPG"
     ],
     // Pack 5: Serena Tucuruvi
     [
-        "img/1.Maquetes profissionais/6. Serena Tucuruvi /1.png",
-        "img/1.Maquetes profissionais/6. Serena Tucuruvi /2.png",
-        "img/1.Maquetes profissionais/6. Serena Tucuruvi /3.png",
-        "img/1.Maquetes profissionais/6. Serena Tucuruvi /4.png",
-        "img/1.Maquetes profissionais/6. Serena Tucuruvi /5.png",
-        "img/1.Maquetes profissionais/6. Serena Tucuruvi /6.png",
-        "img/1.Maquetes profissionais/6. Serena Tucuruvi /7.png",
-        "img/1.Maquetes profissionais/6. Serena Tucuruvi /8.png"
+        "img/maquetes_pro/serena_tucuruvi_06/1.png",
+        "img/maquetes_pro/serena_tucuruvi_06/2.png",
+        "img/maquetes_pro/serena_tucuruvi_06/3.png",
+        "img/maquetes_pro/serena_tucuruvi_06/4.png",
+        "img/maquetes_pro/serena_tucuruvi_06/5.png",
+        "img/maquetes_pro/serena_tucuruvi_06/6.png",
+        "img/maquetes_pro/serena_tucuruvi_06/7.png",
+        "img/maquetes_pro/serena_tucuruvi_06/8.png"
     ],
     // Pack 6: Centro Alimentício Maricá
     [
-        "img/1.Maquetes profissionais/7. Centro Alimentício Maricá/1.JPG",
-        "img/1.Maquetes profissionais/7. Centro Alimentício Maricá/2.JPG",
-        "img/1.Maquetes profissionais/7. Centro Alimentício Maricá/3.JPG",
-        "img/1.Maquetes profissionais/7. Centro Alimentício Maricá/4.JPG",
-        "img/1.Maquetes profissionais/7. Centro Alimentício Maricá/5.JPG",
-        "img/1.Maquetes profissionais/7. Centro Alimentício Maricá/6.JPG",
-        "img/1.Maquetes profissionais/7. Centro Alimentício Maricá/7.JPG"
+        "img/maquetes_pro/centro_alimenticio_marica_07/1.JPG",
+        "img/maquetes_pro/centro_alimenticio_marica_07/2.JPG",
+        "img/maquetes_pro/centro_alimenticio_marica_07/3.JPG",
+        "img/maquetes_pro/centro_alimenticio_marica_07/4.JPG",
+        "img/maquetes_pro/centro_alimenticio_marica_07/5.JPG",
+        "img/maquetes_pro/centro_alimenticio_marica_07/6.JPG",
+        "img/maquetes_pro/centro_alimenticio_marica_07/7.JPG"
     ],
     // Pack 7: Studio Alfa
     [
-        "img/1.Maquetes profissionais/8. Studio Alfa /1.png",
-        "img/1.Maquetes profissionais/8. Studio Alfa /2.png",
-        "img/1.Maquetes profissionais/8. Studio Alfa /3.png",
-        "img/1.Maquetes profissionais/8. Studio Alfa /4.png",
-        "img/1.Maquetes profissionais/8. Studio Alfa /5.png",
-        "img/1.Maquetes profissionais/8. Studio Alfa /6.png",
-        "img/1.Maquetes profissionais/8. Studio Alfa /7.png",
-        "img/1.Maquetes profissionais/8. Studio Alfa /8.png"
+        "img/maquetes_pro/studio_alfa_08/1.png",
+        "img/maquetes_pro/studio_alfa_08/2.png",
+        "img/maquetes_pro/studio_alfa_08/3.png",
+        "img/maquetes_pro/studio_alfa_08/4.png",
+        "img/maquetes_pro/studio_alfa_08/5.png",
+        "img/maquetes_pro/studio_alfa_08/6.png",
+        "img/maquetes_pro/studio_alfa_08/7.png",
+        "img/maquetes_pro/studio_alfa_08/8.png"
     ]
 ];
 
@@ -181,56 +179,56 @@ const galeariaDots = document.getElementById('galeariaDots');
 // Dados dos cards da galeria
 const galeriaCards = [
     {
-        src: "img/1.Maquetes profissionais/1. Summit Towers - WE Construtora/1.JPG",
+        src: "img/maquetes_pro/summit_tower_01/1.JPG",
         alt: "Santorini Villa",
         titulo: "Summit Towers",
         constructor: "WE Construtora",
         modalIndex: 0
     },
     {
-        src: "img/1.Maquetes profissionais/2. Horto Residence - Construtora LIMAC/1.png",
+        src: "img/maquetes_pro/horto_residence_02/1.jpg",
         alt: "Swiss Chalet",
         titulo: "Horto Residence",
         constructor: "Construtora LIMAC",
         modalIndex: 1
     },
     {
-        src: "img/1.Maquetes profissionais/3. Ferraz Junqueira - Construtora Vilela Campos/1.JPG",
+        src: "img/maquetes_pro/ferraz_junqueira_03/1.JPG",
         alt: "Oceanfront Cabin",
         titulo: "Ferraz Junqueira",
         constructor: "Construtora Vilela Campos",
         modalIndex: 2
     },
     {
-        src: "img/1.Maquetes profissionais/4. Soul Ipanema - On Construtora/1.JPG",
+        src: "img/maquetes_pro/soul_ipanema_04/1.JPG",
         alt: "Forest Retreat",
         titulo: "Soul Ipanema",
         constructor: "On Construtora",
         modalIndex: 3
     },
     {
-        src: "img/1.Maquetes profissionais/5. Privilége - On Construtora/1.JPG",
+        src: "img/maquetes_pro/privillege_05/1.JPG",
         alt: "Desert Oasis",
         titulo: "Privilége",
         constructor: "On Construtora",
         modalIndex: 4
     },
     {
-        src: "img/1.Maquetes profissionais/6. Serena Tucuruvi /1.png",
+        src: "img/maquetes_pro/serena_tucuruvi_06/1.png",
         alt: "Tropical Resort",
         titulo: "Serena Tucuruvi",
         constructor: "",
         modalIndex: 5
     },
     {
-        src: "img/1.Maquetes profissionais/7. Centro Alimentício Maricá/1.JPG",
+        src: "img/maquetes_pro/centro_alimenticio_marica_07/1.JPG",
         alt: "Mountain Lodge",
         titulo: "Centro Alimentício",
         constructor: "",
         modalIndex: 6
     },
     {
-        src: "img/1.Maquetes profissionais/8. Studio Alfa /1.png",
+        src: "img/maquetes_pro/studio_alfa_08/1.png",
         alt: "Lake View House",
         titulo: "Studio Alfa",
         constructor: "",
