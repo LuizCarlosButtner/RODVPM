@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Controle de Cache Rigoroso -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>RODVPM</title>
   <link rel="icon" href="img/icone.ico" type="image/x-icon" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -979,12 +983,245 @@
         </h2>
       </div>
 
-      <!-- Container Principal do Embed -->
-      <div class="w-full flex justify-center">
-        <!-- ========================================== -->
-        <script defer async src='https://cdn.trustindex.io/loader.js?32fd3c271d62605c6c160d0d0c1'></script>
-        <!-- ========================================== -->
+      <!-- Container Principal do Embed (Substituído pelo Carrossel Offline) -->
+      <div class="w-full max-w-6xl mx-auto relative mt-8">
+        <!-- Header e Título -->
+        <div class="bg-white rounded-lg p-3 md:p-4 mb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 shadow-sm">
+            <div class="flex flex-wrap items-center gap-2 md:gap-4">
+                <!-- Logo Google -->
+                <svg viewBox="0 0 74 24" class="w-16 md:w-20 h-auto">
+                    <path d="M9.4 18.6C4.3 18.6 0 14.5 0 9.3C0 4.2 4.3 0 9.4 0C12.3 0 14.3 1.1 15.8 2.6L14.0 4.4C13.0 3.4 11.5 2.5 9.4 2.5C5.7 2.5 2.8 5.6 2.8 9.3C2.8 13.1 5.7 16.1 9.4 16.1C11.9 16.1 13.3 15.1 14.2 14.2C14.9 13.5 15.4 12.4 15.5 11.0L9.4 11.0V8.5H18.0C18.1 8.9 18.2 9.5 18.2 10.1C18.2 12.0 17.6 14.3 16.0 16.0C14.3 17.7 12.2 18.6 9.4 18.6Z" fill="#4285F4"/>
+                    <path d="M11.8 5.9C11.8 9.3 9.1 11.8 5.9 11.8C2.6 11.8 0 9.3 0 5.9C0 2.5 2.6 0 5.9 0C9.1 0 11.8 2.5 11.8 5.9ZM9.2 5.9C9.2 3.8 7.7 2.3 5.9 2.3C4.1 2.3 2.6 3.8 2.6 5.9C2.6 8.0 4.1 9.5 5.9 9.5C7.7 9.5 9.2 8.0 9.2 5.9Z" transform="translate(19.0 6.8)" fill="#EA4335"/>
+                    <path d="M11.8 5.9C11.8 9.3 9.1 11.8 5.9 11.8C2.6 11.8 0 9.3 0 5.9C0 2.5 2.6 0 5.9 0C9.1 0 11.8 2.5 11.8 5.9ZM9.2 5.9C9.2 3.8 7.7 2.3 5.9 2.3C4.1 2.3 2.6 3.8 2.6 5.9C2.6 8.0 4.1 9.5 5.9 9.5C7.7 9.5 9.2 8.0 9.2 5.9Z" transform="translate(31.5 6.8)" fill="#FBBC05"/>
+                    <path d="M11.3 0.4L11.3 11.0C11.3 15.3 8.7 17.1 5.7 17.1C2.8 17.1 1.1 15.2 0.5 13.6L2.7 12.7C3.1 13.7 4.1 14.8 5.7 14.8C7.6 14.8 8.8 13.6 8.8 11.3L8.8 10.5H8.7C8.1 11.2 7.0 11.8 5.6 11.8C2.7 11.8 0 9.2 0 5.9C0 2.6 2.7 0 5.6 0C7.0 0 8.1 0.6 8.7 1.3H8.8V0.4H11.3ZM9.0 5.9C9.0 3.8 7.6 2.3 5.8 2.3C4.0 2.3 2.6 3.8 2.6 5.9C2.6 8.0 4.0 9.5 5.8 9.5C7.6 9.5 9.0 8.0 9.0 5.9Z" transform="translate(44.0 6.8)" fill="#4285F4"/>
+                    <path d="M2.6 0L2.6 17.3H0V0H2.6Z" transform="translate(56.5 1.0)" fill="#34A853"/>
+                    <path d="M8.7 7.8L10.7 9.2C10.1 10.2 8.5 11.8 5.8 11.8C2.5 11.8 0 9.2 0 5.9C0 2.4 2.5 0 5.5 0C8.6 0 10.1 2.4 10.5 3.8L10.8 4.4L3.0 7.7C3.6 8.8 4.5 9.5 5.8 9.5C7.2 9.5 8.1 8.8 8.7 7.8ZM2.5 5.7L7.8 3.5C7.5 2.8 6.6 2.3 5.6 2.3C4.3 2.3 2.5 3.4 2.5 5.7Z" transform="translate(60.0 6.8)" fill="#EA4335"/>
+                </svg>
+
+                <div class="flex text-[#FBBC05] gap-0.5">
+                    <svg class="w-5 h-5 md:w-6 md:h-6 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <svg class="w-5 h-5 md:w-6 md:h-6 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <svg class="w-5 h-5 md:w-6 md:h-6 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <svg class="w-5 h-5 md:w-6 md:h-6 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <svg class="w-5 h-5 md:w-6 md:h-6 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </div>
+
+                <div class="text-black font-semibold text-sm md:text-lg">
+                    5.0 <span class="text-gray-400 font-normal mx-1">|</span> Serviço mais bem avaliado
+                </div>
+            </div>
+        </div>
+
+        <div class="relative group">
+            
+            <!-- Botão Voltar -->
+            <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 md:-translate-x-4 z-10 bg-white p-2 rounded-full shadow-lg border border-gray-100 hover:bg-gray-50 transition opacity-0 group-hover:opacity-100 hidden md:block">
+                <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+            </button>
+
+            <!-- Trilha do Carrossel -->
+            <div id="carouselTrack" class="flex overflow-x-auto snap-x snap-mandatory gap-4 md:gap-6 no-scrollbar pb-4 pt-2">
+
+                <!-- Card 1: Mateus Moreira -->
+                <div class="snap-start shrink-0 w-[85vw] sm:w-[45vw] lg:w-[calc(33.333%-1rem)] bg-[#F8F9F9] rounded-2xl p-6 flex flex-col shadow-sm">
+                    <div class="flex justify-between items-start mb-3">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-[#8362C5] flex items-center justify-center text-white text-xl font-bold">M</div>
+                            <div>
+                                <h3 class="font-bold text-gray-900 leading-tight">Mateus Moreira</h3>
+                                <span class="text-sm text-gray-500">7 meses atrás</span>
+                            </div>
+                        </div>
+                        <svg class="w-6 h-6" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    </div>
+                    
+                    <div class="flex items-center gap-1 mb-4">
+                        <div class="flex text-[#FBBC05]">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        </div>
+                        <img src="https://cdn.trustindex.io/assets/icon/ti-verified.svg" alt="Verificado Trustindex" class="w-5 h-5 ml-1">
+                    </div>
+
+                    <p class="text-gray-800 text-[15px] leading-relaxed flex-grow">
+                        Precisávamos do projeto pronto em 3 semanas, missão muito difícil.<br><br>
+                        Resultado: um baita trabalho e uma linda maquete entregue a tempo!
+                    </p>
+                </div>
+
+                <!-- Card 2: Luane Pereira -->
+                <div class="snap-start shrink-0 w-[85vw] sm:w-[45vw] lg:w-[calc(33.333%-1rem)] bg-[#F8F9F9] rounded-2xl p-6 flex flex-col shadow-sm">
+                    <div class="flex justify-between items-start mb-3">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-gray-300 overflow-hidden ti-profile-img">
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjWjLiRJNGtUd920tg88FuBVZ1d_iOB20L21KwFyI5TLL5kenVi11A=w40-h40-c-rp-mo-br100" srcset="https://lh3.googleusercontent.com/a-/ALV-UjWjLiRJNGtUd920tg88FuBVZ1d_iOB20L21KwFyI5TLL5kenVi11A=w80-h80-c-rp-mo-br100 2x" alt="Luane Pereira profile picture" class="w-full h-full object-cover" loading="lazy">
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-gray-900 leading-tight">Luane Pereira</h3>
+                                <span class="text-sm text-gray-500">1 ano atrás</span>
+                            </div>
+                        </div>
+                        <svg class="w-6 h-6" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    </div>
+                    <div class="flex items-center gap-1 mb-4">
+                        <div class="flex text-[#FBBC05]">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        </div>
+                        <img src="https://cdn.trustindex.io/assets/icon/ti-verified.svg" alt="Verificado Trustindex" class="w-5 h-5 ml-1">
+                    </div>
+                    <p class="text-gray-800 text-[15px] leading-relaxed flex-grow">
+                        Trabalho impecável demais, com atenção aos detalhes e excelente execução técnica!
+                    </p>
+                </div>
+
+                <!-- Card 3: roberta lima -->
+                <div class="snap-start shrink-0 w-[85vw] sm:w-[45vw] lg:w-[calc(33.333%-1rem)] bg-[#F8F9F9] rounded-2xl p-6 flex flex-col shadow-sm">
+                    <div class="flex justify-between items-start mb-3">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-gray-300 overflow-hidden ti-profile-img">
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjVuKNMwD1ove-7rta0An7VaLXvFhVadqK3__KevquYmTH92szHa=w40-h40-c-rp-mo-br100" srcset="https://lh3.googleusercontent.com/a-/ALV-UjVuKNMwD1ove-7rta0An7VaLXvFhVadqK3__KevquYmTH92szHa=w80-h80-c-rp-mo-br100 2x" alt="roberta lima profile picture" class="w-full h-full object-cover" loading="lazy">
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-gray-900 leading-tight">roberta lima</h3>
+                                <span class="text-sm text-gray-500">1 ano atrás</span>
+                            </div>
+                        </div>
+                        <svg class="w-6 h-6" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    </div>
+                    <div class="flex items-center gap-1 mb-4">
+                        <div class="flex text-[#FBBC05]">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        </div>
+                        <img src="https://cdn.trustindex.io/assets/icon/ti-verified.svg" alt="Verificado Trustindex" class="w-5 h-5 ml-1">
+                    </div>
+                    <p class="text-gray-800 text-[15px] leading-relaxed flex-grow">
+                        Dono das melhores maquetes para arquitetura do Rio de Janeiro! Tudo muito bem feito e fiel ao projeto. Nota 1000
+                    </p>
+                </div>
+
+                <!-- Card 4: Richardson Lima -->
+                <div class="snap-start shrink-0 w-[85vw] sm:w-[45vw] lg:w-[calc(33.333%-1rem)] bg-[#F8F9F9] rounded-2xl p-6 flex flex-col shadow-sm">
+                    <div class="flex justify-between items-start mb-3">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-gray-300 overflow-hidden ti-profile-img">
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjUP9tIWXcwW2XdKGjP4dlbn-QdA4COMaPNh6YwTg0LtHVDgCujl-Q=w40-h40-c-rp-mo-ba2-br100" srcset="https://lh3.googleusercontent.com/a-/ALV-UjUP9tIWXcwW2XdKGjP4dlbn-QdA4COMaPNh6YwTg0LtHVDgCujl-Q=w80-h80-c-rp-mo-ba2-br100 2x" alt="Richardson Lima profile picture" class="w-full h-full object-cover" loading="lazy">
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-gray-900 leading-tight">Richardson Lima</h3>
+                                <span class="text-sm text-gray-500">6 meses atrás</span>
+                            </div>
+                        </div>
+                        <svg class="w-6 h-6" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    </div>
+                    <div class="flex items-center gap-1 mb-4">
+                        <div class="flex text-[#FBBC05]">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        </div>
+                        <img src="https://cdn.trustindex.io/assets/icon/ti-verified.svg" alt="Verificado Trustindex" class="w-5 h-5 ml-1">
+                    </div>
+                    <p class="text-gray-800 text-[15px] leading-relaxed flex-grow">
+                        Rodrigo é um grande profissional. Mesmo com prazos apertados, mantém a qualidade do seu trabalho e a riqueza dos detalhes em cada canto de sua maquete.
+                    </p>
+                </div>
+
+                <!-- Card 5: Yuri Lima -->
+                <div class="snap-start shrink-0 w-[85vw] sm:w-[45vw] lg:w-[calc(33.333%-1rem)] bg-[#F8F9F9] rounded-2xl p-6 flex flex-col shadow-sm">
+                    <div class="flex justify-between items-start mb-3">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-gray-300 overflow-hidden ti-profile-img">
+                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjUwsUkZJy4Hqg-TxZ_3OcbYxGOqoYCHrgWcpdjiMfBG1ensYIEg=w40-h40-c-rp-mo-br100" srcset="https://lh3.googleusercontent.com/a-/ALV-UjUwsUkZJy4Hqg-TxZ_3OcbYxGOqoYCHrgWcpdjiMfBG1ensYIEg=w80-h80-c-rp-mo-br100 2x" alt="Yuri Lucas profile picture" class="w-full h-full object-cover" loading="lazy">
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-gray-900 leading-tight">Yuri Lima</h3>
+                                <span class="text-sm text-gray-500">2 meses atrás</span>
+                            </div>
+                        </div>
+                        <svg class="w-6 h-6" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    </div>
+                    <div class="flex items-center gap-1 mb-4">
+                        <div class="flex text-[#FBBC05]">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        </div>
+                        <img src="https://cdn.trustindex.io/assets/icon/ti-verified.svg" alt="Verificado Trustindex" class="w-5 h-5 ml-1">
+                    </div>
+                    <p class="text-gray-800 text-[15px] leading-relaxed flex-grow">
+                        Atendimento excepcional e projeto entregue perfeitamente. Serviço de altíssima qualidade!
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Botão Avançar -->
+            <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 md:translate-x-4 z-10 bg-white p-2 rounded-full shadow-lg border border-gray-100 hover:bg-gray-50 transition opacity-0 group-hover:opacity-100 hidden md:block">
+                <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            </button>
+            
+        </div>
       </div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const track = document.getElementById('carouselTrack');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+
+            // Atualiza a visibilidade das setas
+            const updateButtonsVisibility = () => {
+                // Se o scroll estiver no começo
+                if (track.scrollLeft <= 5) {
+                    prevBtn.classList.add('!hidden');
+                } else {
+                    prevBtn.classList.remove('!hidden');
+                }
+
+                // Se o scroll estiver no fim
+                if (Math.ceil(track.scrollLeft + track.clientWidth) >= track.scrollWidth) {
+                    nextBtn.classList.add('!hidden');
+                } else {
+                    nextBtn.classList.remove('!hidden');
+                }
+            };
+
+            // Verificar no carregamento
+            updateButtonsVisibility();
+            // Verificar ao fazer scroll
+            track.addEventListener('scroll', updateButtonsVisibility);
+
+            // Função para calcular a distância do scroll com base na largura da tela
+            const getScrollAmount = () => {
+                const cardWidth = track.querySelector('div').offsetWidth;
+                const gap = parseInt(window.getComputedStyle(track).gap) || 0;
+                return cardWidth + gap;
+            };
+
+            nextBtn.addEventListener('click', () => {
+                track.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+            });
+
+            prevBtn.addEventListener('click', () => {
+                track.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+            });
+        });
+      </script>
     </div>
   </section>
 
@@ -1300,8 +1537,10 @@
     </div>
   </div>
 
-  <!-- Script de Funcionalidade do Modal e Carrossel -->
-  <script src="script.js"></script>
+  <!-- Script de Funcionalidade do Modal e Carrossel (Cache Busting via Query String Dinâmica) -->
+  <script>
+    document.write('<script src="script.js?v=' + new Date().getTime() + '"><\/script>');
+  </script>
 </body>
 
 </html>
