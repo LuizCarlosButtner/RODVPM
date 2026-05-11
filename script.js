@@ -395,9 +395,11 @@ const galeriaCards = [
                  img/maquetes_pro/1_summit_tower/1_u4cq1n/1_u4cq1n_c_scale,w_955.jpg 955w,
                  img/maquetes_pro/1_summit_tower/1_u4cq1n/1_u4cq1n_c_scale,w_1299.jpg 1299w,
                  img/maquetes_pro/1_summit_tower/1_u4cq1n/1_u4cq1n_c_scale,w_1600.jpg 1600w`,
-        alt: "Santorini Villa",
+        alt: "Summit Towers",
         titulo: "Summit Towers",
         constructor: "WE Construtora",
+        localidade: "Ipatinga, MG",
+        escala: "1:100",
         modalIndex: 0
     },
     {
@@ -406,9 +408,11 @@ const galeriaCards = [
                  img/maquetes_pro/2_horto_residence/1_lnvlmj/1_lnvlmj_c_scale,w_962.jpg 962w,
                  img/maquetes_pro/2_horto_residence/1_lnvlmj/1_lnvlmj_c_scale,w_1355.jpg 1355w,
                  img/maquetes_pro/2_horto_residence/1_lnvlmj/1_lnvlmj_c_scale,w_1600.jpg 1600w`,
-        alt: "Swiss Chalet",
+        alt: "Horto Residence",
         titulo: "Horto Residence",
         constructor: "Construtora LIMAC",
+        localidade: "Ipatinga, MG",
+        escala: "1:50",
         modalIndex: 1
     },
     {
@@ -417,9 +421,11 @@ const galeriaCards = [
                  img/maquetes_pro/3_ferraz_junqueira/1_wr15cl/1_wr15cl_c_scale,w_957.jpg 957w,
                  img/maquetes_pro/3_ferraz_junqueira/1_wr15cl/1_wr15cl_c_scale,w_1365.jpg 1365w,
                  img/maquetes_pro/3_ferraz_junqueira/1_wr15cl/1_wr15cl_c_scale,w_1600.jpg 1600w`,
-        alt: "Oceanfront Cabin",
+        alt: "Ferraz Junqueira",
         titulo: "Ferraz Junqueira",
         constructor: "Construtora Vilela Campos",
+        localidade: "S\u00e3o Louren\u00e7o, MG",
+        escala: "1:50",
         modalIndex: 2
     },
     {
@@ -428,9 +434,11 @@ const galeriaCards = [
                  img/maquetes_pro/4_soul_ipanema/1_w0gyhm/1_w0gyhm_c_scale,w_895.jpg 895w,
                  img/maquetes_pro/4_soul_ipanema/1_w0gyhm/1_w0gyhm_c_scale,w_1143.jpg 1143w,
                  img/maquetes_pro/4_soul_ipanema/1_w0gyhm/1_w0gyhm_c_scale,w_1600.jpg 1600w`,
-        alt: "Forest Retreat",
+        alt: "Soul Ipanema",
         titulo: "Soul Ipanema",
         constructor: "On Construtora",
+        localidade: "Ipatinga, MG",
+        escala: "1:50",
         modalIndex: 3
     },
     {
@@ -439,9 +447,11 @@ const galeriaCards = [
                  img/maquetes_pro/5_privillege/1_ennokx/1_ennokx_c_scale,w_784.jpg 784w,
                  img/maquetes_pro/5_privillege/1_ennokx/1_ennokx_c_scale,w_1037.jpg 1037w,
                  img/maquetes_pro/5_privillege/1_ennokx/1_ennokx_c_scale,w_1600.jpg 1600w`,
-        alt: "Desert Oasis",
-        titulo: "Privilége",
+        alt: "Privil\u00e9ge",
+        titulo: "Privil\u00e9ge",
         constructor: "On Construtora",
+        localidade: "Ituiutaba, MG",
+        escala: "1:50",
         modalIndex: 4
     },
     {
@@ -450,9 +460,11 @@ const galeriaCards = [
                  img/maquetes_pro/6_serena_tucuruvi/1_jpyqym/1_jpyqym_c_scale,w_986.png 986w,
                  img/maquetes_pro/6_serena_tucuruvi/1_jpyqym/1_jpyqym_c_scale,w_1373.png 1373w,
                  img/maquetes_pro/6_serena_tucuruvi/1_jpyqym/1_jpyqym_c_scale,w_1600.png 1600w`,
-        alt: "Tropical Resort",
+        alt: "Serena Tucuruvi",
         titulo: "Serena Tucuruvi",
-        constructor: "",
+        constructor: "Construtora LIMAC",
+        localidade: "S\u00e3o Paulo, SP",
+        escala: "1:75",
         modalIndex: 5
     },
     {
@@ -461,9 +473,11 @@ const galeriaCards = [
                  img/maquetes_pro/7_centro_alimenticio_marica/1_xbyjuw/1_xbyjuw_c_scale,w_944.jpg 944w,
                  img/maquetes_pro/7_centro_alimenticio_marica/1_xbyjuw/1_xbyjuw_c_scale,w_1304.jpg 1304w,
                  img/maquetes_pro/7_centro_alimenticio_marica/1_xbyjuw/1_xbyjuw_c_scale,w_1600.jpg 1600w`,
-        alt: "Mountain Lodge",
-        titulo: "Centro Alimentício",
-        constructor: "",
+        alt: "Centro Aliment\u00edcio",
+        titulo: "Centro Aliment\u00edcio",
+        constructor: "Masterplan e BioTec Maric\u00e1",
+        localidade: "Maric\u00e1, RJ",
+        escala: "1:300",
         modalIndex: 6
     },
     {
@@ -472,9 +486,11 @@ const galeriaCards = [
                  img/maquetes_pro/8_studio_alfa/1_cyhyaa/1_cyhyaa_c_scale,w_990.png 990w,
                  img/maquetes_pro/8_studio_alfa/1_cyhyaa/1_cyhyaa_c_scale,w_1376.png 1376w,
                  img/maquetes_pro/8_studio_alfa/1_cyhyaa/1_cyhyaa_c_scale,w_1600.png 1600w`,
-        alt: "Lake View House",
+        alt: "Studio Alfa",
         titulo: "Studio Alfa",
-        constructor: "",
+        constructor: "Construtora Alfa",
+        localidade: "Manhua\u00e7u, MG",
+        escala: "1:75",
         modalIndex: 7
     }
 ];
@@ -507,6 +523,7 @@ function initGaleriaCarousel() {
                 <div>
                     <h3 class="text-white text-lg font-bold leading-tight">${card.titulo}</h3>
                     ${card.constructor ? `<p class="text-gray-300 text-xs font-light mt-1">${card.constructor}</p>` : ''}
+                    ${card.localidade ? `<p class="text-gray-400 text-xs font-light">${card.localidade}</p>` : ''}
                 </div>
                 <div class="flex items-center gap-1.5 mt-2">
                     <svg class="w-3.5 h-3.5 text-white/80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -515,7 +532,7 @@ function initGaleriaCarousel() {
                             <path d="M6 16v-2.5 M9 16v-4 M12 16v-2.5 M15 16v-4 M18 16v-2.5" />
                         </g>
                     </svg>
-                    <span class="text-white/80 text-xs font-medium">1:50</span>
+                    <span class="text-white/80 text-xs font-medium">${card.escala || '1:50'}</span>
                 </div>
             </div>
         `;
