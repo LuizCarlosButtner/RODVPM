@@ -238,55 +238,37 @@
         <img sizes="(max-width: 480px) 480px, 1600px" srcset="
               img/header/png_logo/89473298479287_do9xiu_c_scale,w_480.png 480w,
               img/header/png_logo/89473298479287_do9xiu_c_scale,w_1600.png 1600w
-            " src="img/header/png_logo/89473298479287_do9xiu_c_scale,w_1600.png" alt="Logo RODVPM Maquetes"
-          class="max-h-16 md:max-h-24 object-contain drop-shadow-md" />
+            " src="img/header/png_logo/89473298479287_do9xiu_c_scale,w_1600.png" alt="Logo RODVPM Maquetes" class="max-h-16 md:max-h-24 object-contain drop-shadow-md">
       </div>
 
-      <!-- Direita: Frase Motivacional (35%) -->
-      <div class="motivational-phrase w-[35%] flex items-center justify-end md:justify-center pl-4">
-        <p
-          class="text-sm md:text-lg text-white italic text-right md:text-center tracking-wide leading-snug drop-shadow-md">
-          "Seu projeto materializado <br />
-          para valorizar cada detalhe"
-        </p>
-      </div>
     </div>
+
 
     <!-- Seção Inferior: Menu de Navegação -->
     <nav class="w-full bg-ruler relative z-20">
-      <ul
-        class="flex w-full items-center justify-center m-0 p-0 list-none flex-wrap sm:flex-nowrap max-w-[1200px] mx-auto pt-10 pb-2">
+      <ul class="flex w-full items-center justify-center m-0 p-0 list-none flex-wrap sm:flex-nowrap max-w-[1200px] mx-auto pt-10 pb-2">
         <li class="flex-1 border-r border-gray-300 last:border-r-0">
-          <div
-            class="flex flex-col items-center justify-center w-full py-2 px-2 text-center text-gray-800 font-bold uppercase text-[10px] md:text-xs lg:text-sm hover:bg-black/5 transition-colors cursor-default group">
-            <svg class="w-5 h-5 md:w-6 md:h-6 mb-1 text-gray-500 group-hover:text-black transition-colors" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M12 3v2m0 14v2m0-14a4 4 0 00-4 4v10m8-14a4 4 0 014 4v10M8 21h8M12 9v10"></path>
+          <div onclick="openPro2Modal()" class="flex flex-col items-center justify-center w-full py-2 px-2 text-center text-gray-800 font-bold uppercase text-[10px] md:text-xs lg:text-sm hover:bg-black/5 transition-colors cursor-pointer group">
+            <svg class="w-5 h-5 md:w-6 md:h-6 mb-1 text-gray-500 group-hover:text-black transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2m0 14v2m0-14a4 4 0 00-4 4v10m8-14a4 4 0 014 4v10M8 21h8M12 9v10"></path>
             </svg>
             Maquete Profissional
           </div>
         </li>
 
         <li class="flex-1 border-r border-gray-300 last:border-r-0">
-          <div
-            class="flex flex-col items-center justify-center w-full py-2 px-2 text-center text-gray-800 font-bold uppercase text-[10px] md:text-xs lg:text-sm hover:bg-black/5 transition-colors cursor-default group">
-            <svg class="w-5 h-5 md:w-6 md:h-6 mb-1 text-gray-500 group-hover:text-black transition-colors" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M4 19l16-16m-4 16l4-4M16 19H4v-4l12-12m-6 10l2-2m-4 4l2-2"></path>
+          <div onclick="openAcademicaModal()" class="flex flex-col items-center justify-center w-full py-2 px-2 text-center text-gray-800 font-bold uppercase text-[10px] md:text-xs lg:text-sm hover:bg-black/5 transition-colors cursor-pointer group">
+            <svg class="w-5 h-5 md:w-6 md:h-6 mb-1 text-gray-500 group-hover:text-black transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 19l16-16m-4 16l4-4M16 19H4v-4l12-12m-6 10l2-2m-4 4l2-2"></path>
             </svg>
             Maquete Acadêmica
           </div>
         </li>
 
         <li class="flex-1 border-r border-gray-300 last:border-r-0">
-          <div
-            class="flex flex-col items-center justify-center w-full py-2 px-2 text-center text-gray-800 font-bold uppercase text-[10px] md:text-xs lg:text-sm hover:bg-black/5 transition-colors cursor-default group">
-            <svg class="w-5 h-5 md:w-6 md:h-6 mb-1 text-gray-500 group-hover:text-black transition-colors" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10">
+          <div onclick="openCenograficaModal()" class="flex flex-col items-center justify-center w-full py-2 px-2 text-center text-gray-800 font-bold uppercase text-[10px] md:text-xs lg:text-sm hover:bg-black/5 transition-colors cursor-pointer group">
+            <svg class="w-5 h-5 md:w-6 md:h-6 mb-1 text-gray-500 group-hover:text-black transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10">
               </path>
             </svg>
             Maquete Cenográfica
@@ -294,12 +276,9 @@
         </li>
 
         <li class="flex-1 border-r border-gray-300 last:border-r-0">
-          <div
-            class="flex flex-col items-center justify-center w-full py-2 px-2 text-center text-gray-800 font-bold uppercase text-[10px] md:text-xs lg:text-sm hover:bg-black/5 transition-colors cursor-default group">
-            <svg class="w-5 h-5 md:w-6 md:h-6 mb-1 text-gray-500 group-hover:text-black transition-colors" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z">
+          <div onclick="openEscolarModal()" class="flex flex-col items-center justify-center w-full py-2 px-2 text-center text-gray-800 font-bold uppercase text-[10px] md:text-xs lg:text-sm hover:bg-black/5 transition-colors cursor-pointer group">
+            <svg class="w-5 h-5 md:w-6 md:h-6 mb-1 text-gray-500 group-hover:text-black transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z">
               </path>
             </svg>
             Maquete Escolar
@@ -307,12 +286,9 @@
         </li>
 
         <li class="flex-1 border-r border-gray-300 last:border-r-0">
-          <div
-            class="flex flex-col items-center justify-center w-full py-2 px-2 text-center text-gray-800 font-bold uppercase text-[10px] md:text-xs lg:text-sm hover:bg-black/5 transition-colors cursor-default group">
-            <svg class="w-5 h-5 md:w-6 md:h-6 mb-1 text-gray-500 group-hover:text-black transition-colors" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M6 19l8-8m0 0l4-4a2.828 2.828 0 10-4-4l-4 4-4 4 1 1 2 2zM14 11l1-1m-3 3l1-1M6 19H3v-3l1-1m2 4v3h3l1-1">
+          <div onclick="openDiversosModal()" class="flex flex-col items-center justify-center w-full py-2 px-2 text-center text-gray-800 font-bold uppercase text-[10px] md:text-xs lg:text-sm hover:bg-black/5 transition-colors cursor-pointer group">
+            <svg class="w-5 h-5 md:w-6 md:h-6 mb-1 text-gray-500 group-hover:text-black transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 19l8-8m0 0l4-4a2.828 2.828 0 10-4-4l-4 4-4 4 1 1 2 2zM14 11l1-1m-3 3l1-1M6 19H3v-3l1-1m2 4v3h3l1-1">
               </path>
             </svg>
             Maquetes Diversas
@@ -321,6 +297,7 @@
       </ul>
     </nav>
   </header>
+
 
   <!-- Seção da Galeria (Fundo Branco Intercalado) -->
   <main class="w-full bg-white py-12">
@@ -1628,9 +1605,13 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         <!-- Coluna 1: Sobre -->
         <div class="flex flex-col gap-6">
-          <h2 class="text-2xl font-black tracking-tighter uppercase italic">
-            ROD<span class="text-orange-400">VPM</span>
-          </h2>
+          <div class="flex items-center">
+            <img sizes="(max-width: 480px) 480px, 1600px" srcset="
+                  img/header/png_logo/89473298479287_do9xiu_c_scale,w_480.png 480w,
+                  img/header/png_logo/89473298479287_do9xiu_c_scale,w_1600.png 1600w
+                " src="img/header/png_logo/89473298479287_do9xiu_c_scale,w_1600.png" alt="Logo RODVPM Maquetes"
+              class="max-h-10 object-contain drop-shadow-md" />
+          </div>
           <p class="text-gray-400 text-sm leading-relaxed text-justify">
             Especialistas em maquetes físicas, mockups e soluções de precisão.
             Transformamos projetos arquitetônicos em representações táteis de alta fidelidade.
@@ -1644,7 +1625,9 @@
           </h3>
           <ul class="flex flex-col gap-3 text-sm text-gray-400">
             <li><a href="#" class="hover:text-white transition-colors">Início</a></li>
-            <li><a href="#galeria" class="hover:text-white transition-colors">Portfólio</a></li>
+            <li><a href="#galeriaGrid" class="hover:text-white transition-colors"
+                onclick="event.preventDefault(); document.getElementById('galeriaGrid').scrollIntoView({behavior:'smooth'})">Portfólio</a>
+            </li>
             <li><a href="#servicos" class="hover:text-white transition-colors">Serviços</a></li>
             <li><a href="#quem-somos" class="hover:text-white transition-colors">Sobre Nós</a></li>
             <li><a href="#contato" class="hover:text-white transition-colors">Contato</a></li>
@@ -1657,14 +1640,16 @@
             Contato
           </h3>
           <div class="flex flex-col gap-4 text-sm text-gray-400">
-            <div class="flex items-center gap-3">
+            <a href="https://wa.me/5521997453080?text=Ol%C3%A1!+Vim+pelo+site+e+gostaria+de+solicitar+um+or%C3%A7amento.+Como+funciona%3F"
+              target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-3 hover:text-white transition-colors group">
               <svg class="w-4 h-4 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
                 </path>
               </svg>
               <span>(21) 99745-3080</span>
-            </div>
+            </a>
             <div class="flex items-center gap-3">
               <svg class="w-4 h-4 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
