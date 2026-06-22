@@ -74,31 +74,48 @@
     /* Padrão do Tapete de Corte (Cutting Mat) - Baseado na Logo */
     .bg-cutting-mat {
       background-color: #164639;
-      /* Verde escuro base da imagem */
+      /* Verde escuro base — fallback PNG desktop (>= 800px) */
       background-image: url("img/header/backGround/9187364981762349876_hlouic_c_scale,w_1600.png");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
     }
 
-    /* Lógica responsiva equivalente ao "srcset" para o background-image */
-    @media (max-width: 1256px) {
+    /* Desktop (>= 800px): versão lg (1200px) WebP — @supports para compatibilidade */
+    @supports (background-image: url('img/header/backGround/bg-header-lg.webp')) {
       .bg-cutting-mat {
-        background-image: url("img/header/backGround/9187364981762349876_hlouic_c_scale,w_1256.png");
+        background-image: url("img/header/backGround/bg-header-lg.webp");
       }
     }
 
-    @media (max-width: 906px) {
+    /* Tablet (< 800px): versão md (800px) */
+    @media (max-width: 799px) {
       .bg-cutting-mat {
         background-image: url("img/header/backGround/9187364981762349876_hlouic_c_scale,w_906.png");
       }
     }
+    @supports (background-image: url('img/header/backGround/bg-header-md.webp')) {
+      @media (max-width: 799px) {
+        .bg-cutting-mat {
+          background-image: url("img/header/backGround/bg-header-md.webp");
+        }
+      }
+    }
 
-    @media (max-width: 480px) {
+    /* Mobile (< 400px): versão sm (400px) */
+    @media (max-width: 399px) {
       .bg-cutting-mat {
         background-image: url("img/header/backGround/9187364981762349876_hlouic_c_scale,w_480.png");
       }
     }
+    @supports (background-image: url('img/header/backGround/bg-header-sm.webp')) {
+      @media (max-width: 399px) {
+        .bg-cutting-mat {
+          background-image: url("img/header/backGround/bg-header-sm.webp");
+        }
+      }
+    }
+
 
     /* Padrão da Régua Escolar Realista para a Navbar */
     .bg-ruler {
@@ -235,10 +252,25 @@
     <div class="flex items-center justify-between w-full h-[280px] px-4 md:px-8 py-4 max-w-[1400px] mx-auto">
       <!-- Esquerda: Logo -->
       <div class="header-logo-container w-[65%] flex items-center pr-4">
-        <img sizes="(max-width: 480px) 480px, 1600px" srcset="
-              img/header/png_logo/89473298479287_do9xiu_c_scale,w_480.png 480w,
-              img/header/png_logo/89473298479287_do9xiu_c_scale,w_1600.png 1600w
-            " src="img/header/png_logo/89473298479287_do9xiu_c_scale,w_1600.png" alt="Logo RODVPM Maquetes" class="max-h-16 md:max-h-24 object-contain drop-shadow-md">
+        <picture>
+          <!-- Desktop (≥ 800px): versão grande 1200px WebP -->
+          <source
+            media="(min-width: 800px)"
+            srcset="img/header/png_logo/logo-rodvpm-lg.webp"
+            type="image/webp">
+          <!-- Tablet (≥ 400px): versão média 800px WebP -->
+          <source
+            media="(min-width: 400px)"
+            srcset="img/header/png_logo/logo-rodvpm-md.webp"
+            type="image/webp">
+          <!-- Mobile (< 400px): versão pequena 400px WebP — fallback padrão -->
+          <img
+            src="img/header/png_logo/logo-rodvpm-sm.webp"
+            alt="Logo RODVPM Maquetes"
+            class="max-h-16 md:max-h-24 object-contain drop-shadow-md"
+            loading="eager"
+            decoding="async">
+        </picture>
       </div>
 
     </div>
@@ -867,92 +899,130 @@
         <div class="w-full lg:w-1/2 flex flex-col items-center">
           <div class="grid grid-cols-4 sm:grid-cols-6 gap-4 w-full">
             <div class="col-span-2 flex items-center justify-center p-4 aspect-square">
-              <img sizes="(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 17vw" srcset="img/logos/1_umdt4s/1_umdt4s_c_scale,w_200.png 200w,
-                img/logos/1_umdt4s/1_umdt4s_c_scale,w_668.png 668w,
-                img/logos/1_umdt4s/1_umdt4s_c_scale,w_1160.png 1160w"
-                src="img/logos/1_umdt4s/1_umdt4s_c_scale,w_1160.png" alt="Logo Cliente"
-                class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <picture>
+                <!-- Desktop (≥ 800px): logo-cliente-01-lg.webp -->
+                <source media="(min-width: 800px)" srcset="img/logos/1_umdt4s/logo-cliente-01-lg.webp" type="image/webp">
+                <!-- Tablet (≥ 400px): logo-cliente-01-md.webp -->
+                <source media="(min-width: 400px)" srcset="img/logos/1_umdt4s/logo-cliente-01-md.webp" type="image/webp">
+                <!-- Mobile (< 400px): fallback sm -->
+                <img
+                  src="img/logos/1_umdt4s/logo-cliente-01-sm.webp"
+                  alt="Logo Cliente"
+                  class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy">
+              </picture>
             </div>
             <div class="col-span-2 flex items-center justify-center p-4 aspect-square">
-              <img sizes="(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 17vw" srcset="img/logos/2_hyxmao/2_hyxmao_c_scale,w_200.png 200w,
-                img/logos/2_hyxmao/2_hyxmao_c_scale,w_617.png 617w,
-                img/logos/2_hyxmao/2_hyxmao_c_scale,w_898.png 898w,
-                img/logos/2_hyxmao/2_hyxmao_c_scale,w_1160.png 1160w"
-                src="img/logos/2_hyxmao/2_hyxmao_c_scale,w_1160.png" alt="Logo Cliente"
-                class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <picture>
+                <source media="(min-width: 800px)" srcset="img/logos/2_hyxmao/logo-cliente-02-lg.webp" type="image/webp">
+                <source media="(min-width: 400px)" srcset="img/logos/2_hyxmao/logo-cliente-02-md.webp" type="image/webp">
+                <img
+                  src="img/logos/2_hyxmao/logo-cliente-02-sm.webp"
+                  alt="Logo Cliente"
+                  class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy">
+              </picture>
             </div>
             <div class="col-span-2 flex items-center justify-center p-4 aspect-square">
-              <img sizes="(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 17vw" srcset="img/logos/3_nuoxna/3_nuoxna_c_scale,w_200.png 200w,
-                img/logos/3_nuoxna/3_nuoxna_c_scale,w_607.png 607w,
-                img/logos/3_nuoxna/3_nuoxna_c_scale,w_894.png 894w,
-                img/logos/3_nuoxna/3_nuoxna_c_scale,w_1160.png 1160w"
-                src="img/logos/3_nuoxna/3_nuoxna_c_scale,w_1160.png" alt="Logo Cliente"
-                class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <picture>
+                <source media="(min-width: 800px)" srcset="img/logos/3_nuoxna/logo-cliente-03-lg.webp" type="image/webp">
+                <source media="(min-width: 400px)" srcset="img/logos/3_nuoxna/logo-cliente-03-md.webp" type="image/webp">
+                <img
+                  src="img/logos/3_nuoxna/logo-cliente-03-sm.webp"
+                  alt="Logo Cliente"
+                  class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy">
+              </picture>
             </div>
             <div class="col-span-2 flex items-center justify-center p-4 aspect-square">
-              <img sizes="(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 17vw" srcset="img/logos/4_rbckot/4_rbckot_c_scale,w_200.png 200w,
-                img/logos/4_rbckot/4_rbckot_c_scale,w_627.png 627w,
-                img/logos/4_rbckot/4_rbckot_c_scale,w_910.png 910w,
-                img/logos/4_rbckot/4_rbckot_c_scale,w_1160.png 1160w"
-                src="img/logos/4_rbckot/4_rbckot_c_scale,w_1160.png" alt="Logo Cliente"
-                class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <picture>
+                <source media="(min-width: 800px)" srcset="img/logos/4_rbckot/logo-cliente-04-lg.webp" type="image/webp">
+                <source media="(min-width: 400px)" srcset="img/logos/4_rbckot/logo-cliente-04-md.webp" type="image/webp">
+                <img
+                  src="img/logos/4_rbckot/logo-cliente-04-sm.webp"
+                  alt="Logo Cliente"
+                  class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy">
+              </picture>
             </div>
             <div class="col-span-2 flex items-center justify-center p-4 aspect-square">
-              <img sizes="(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 17vw" srcset="img/logos/5_notq0a/5_notq0a_c_scale,w_200.png 200w,
-                img/logos/5_notq0a/5_notq0a_c_scale,w_608.png 608w,
-                img/logos/5_notq0a/5_notq0a_c_scale,w_885.png 885w,
-                img/logos/5_notq0a/5_notq0a_c_scale,w_1160.png 1160w"
-                src="img/logos/5_notq0a/5_notq0a_c_scale,w_1160.png" alt="Logo Cliente"
-                class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <picture>
+                <source media="(min-width: 800px)" srcset="img/logos/5_notq0a/logo-cliente-05-lg.webp" type="image/webp">
+                <source media="(min-width: 400px)" srcset="img/logos/5_notq0a/logo-cliente-05-md.webp" type="image/webp">
+                <img
+                  src="img/logos/5_notq0a/logo-cliente-05-sm.webp"
+                  alt="Logo Cliente"
+                  class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy">
+              </picture>
             </div>
             <div class="col-span-2 flex items-center justify-center p-4 aspect-square">
-              <img sizes="(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 17vw" srcset="img/logos/6_gzq3qh/6_gzq3qh_c_scale,w_200.png 200w,
-                img/logos/6_gzq3qh/6_gzq3qh_c_scale,w_720.png 720w,
-                img/logos/6_gzq3qh/6_gzq3qh_c_scale,w_1067.png 1067w,
-                img/logos/6_gzq3qh/6_gzq3qh_c_scale,w_1160.png 1160w"
-                src="img/logos/6_gzq3qh/6_gzq3qh_c_scale,w_1160.png" alt="Logo Cliente"
-                class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <picture>
+                <source media="(min-width: 800px)" srcset="img/logos/6_gzq3qh/logo-cliente-06-lg.webp" type="image/webp">
+                <source media="(min-width: 400px)" srcset="img/logos/6_gzq3qh/logo-cliente-06-md.webp" type="image/webp">
+                <img
+                  src="img/logos/6_gzq3qh/logo-cliente-06-sm.webp"
+                  alt="Logo Cliente"
+                  class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy">
+              </picture>
             </div>
             <div class="col-span-2 flex items-center justify-center p-4 aspect-square">
-              <img sizes="(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 17vw" srcset="img/logos/7_znbfmf/7_znbfmf_c_scale,w_200.png 200w,
-                img/logos/7_znbfmf/7_znbfmf_c_scale,w_639.png 639w,
-                img/logos/7_znbfmf/7_znbfmf_c_scale,w_923.png 923w,
-                img/logos/7_znbfmf/7_znbfmf_c_scale,w_1160.png 1160w"
-                src="img/logos/7_znbfmf/7_znbfmf_c_scale,w_1160.png" alt="Logo Cliente"
-                class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <picture>
+                <source media="(min-width: 800px)" srcset="img/logos/7_znbfmf/logo-cliente-07-lg.webp" type="image/webp">
+                <source media="(min-width: 400px)" srcset="img/logos/7_znbfmf/logo-cliente-07-md.webp" type="image/webp">
+                <img
+                  src="img/logos/7_znbfmf/logo-cliente-07-sm.webp"
+                  alt="Logo Cliente"
+                  class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy">
+              </picture>
             </div>
             <div class="col-span-2 flex items-center justify-center p-4 aspect-square">
-              <img sizes="(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 17vw" srcset="img/logos/8_ak0elv/8_ak0elv_c_scale,w_200.png 200w,
-                img/logos/8_ak0elv/8_ak0elv_c_scale,w_610.png 610w,
-                img/logos/8_ak0elv/8_ak0elv_c_scale,w_897.png 897w,
-                img/logos/8_ak0elv/8_ak0elv_c_scale,w_1160.png 1160w"
-                src="img/logos/8_ak0elv/8_ak0elv_c_scale,w_1160.png" alt="Logo Cliente"
-                class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <picture>
+                <source media="(min-width: 800px)" srcset="img/logos/8_ak0elv/logo-cliente-08-lg.webp" type="image/webp">
+                <source media="(min-width: 400px)" srcset="img/logos/8_ak0elv/logo-cliente-08-md.webp" type="image/webp">
+                <img
+                  src="img/logos/8_ak0elv/logo-cliente-08-sm.webp"
+                  alt="Logo Cliente"
+                  class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy">
+              </picture>
             </div>
             <div class="col-span-2 flex items-center justify-center p-4 aspect-square">
-              <img sizes="(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 17vw" srcset="img/logos/9_ud5mvg/9_ud5mvg_c_scale,w_200.png 200w,
-                img/logos/9_ud5mvg/9_ud5mvg_c_scale,w_640.png 640w,
-                img/logos/9_ud5mvg/9_ud5mvg_c_scale,w_930.png 930w,
-                img/logos/9_ud5mvg/9_ud5mvg_c_scale,w_1160.png 1160w"
-                src="img/logos/9_ud5mvg/9_ud5mvg_c_scale,w_1160.png" alt="Logo Cliente"
-                class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <picture>
+                <source media="(min-width: 800px)" srcset="img/logos/9_ud5mvg/logo-cliente-09-lg.webp" type="image/webp">
+                <source media="(min-width: 400px)" srcset="img/logos/9_ud5mvg/logo-cliente-09-md.webp" type="image/webp">
+                <img
+                  src="img/logos/9_ud5mvg/logo-cliente-09-sm.webp"
+                  alt="Logo Cliente"
+                  class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy">
+              </picture>
             </div>
 
             <div class="col-span-2 sm:col-start-2 flex items-center justify-center p-4 aspect-square">
-              <img sizes="(max-width: 639px) 50vw, (max-width: 1023px) 33vw, 17vw" srcset="img/logos/10_ty6vv5/10_ty6vv5_c_scale,w_200.png 200w,
-                img/logos/10_ty6vv5/10_ty6vv5_c_scale,w_607.png 607w,
-                img/logos/10_ty6vv5/10_ty6vv5_c_scale,w_893.png 893w,
-                img/logos/10_ty6vv5/10_ty6vv5_c_scale,w_1160.png 1160w"
-                src="img/logos/10_ty6vv5/10_ty6vv5_c_scale,w_1160.png" alt="Logo Cliente"
-                class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <picture>
+                <source media="(min-width: 800px)" srcset="img/logos/10_ty6vv5/logo-cliente-10-lg.webp" type="image/webp">
+                <source media="(min-width: 400px)" srcset="img/logos/10_ty6vv5/logo-cliente-10-md.webp" type="image/webp">
+                <img
+                  src="img/logos/10_ty6vv5/logo-cliente-10-sm.webp"
+                  alt="Logo Cliente"
+                  class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy">
+              </picture>
             </div>
 
             <div class="col-span-2 col-start-2 sm:col-start-auto flex items-center justify-center p-4 aspect-square">
-              <img sizes="(max-width: 900px) 100vw, 900px" srcset="img/logos/11_rsmy8x/11_rsmy8x_c_scale,w_200.png 200w,
-                img/logos/11_rsmy8x/11_rsmy8x_c_scale,w_617.png 617w,
-                img/logos/11_rsmy8x/11_rsmy8x_c_scale,w_900.png 900w"
-                src="img/logos/11_rsmy8x/11_rsmy8x_c_scale,w_900.png" alt="Logo Cliente"
-                class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <picture>
+                <source media="(min-width: 800px)" srcset="img/logos/11_rsmy8x/logo-cliente-11-lg.webp" type="image/webp">
+                <source media="(min-width: 400px)" srcset="img/logos/11_rsmy8x/logo-cliente-11-md.webp" type="image/webp">
+                <img
+                  src="img/logos/11_rsmy8x/logo-cliente-11-sm.webp"
+                  alt="Logo Cliente"
+                  class="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  loading="lazy">
+              </picture>
             </div>
           </div>
         </div>
@@ -1606,11 +1676,25 @@
         <!-- Coluna 1: Sobre -->
         <div class="flex flex-col gap-6">
           <div class="flex items-center">
-            <img sizes="(max-width: 480px) 480px, 1600px" srcset="
-                  img/header/png_logo/89473298479287_do9xiu_c_scale,w_480.png 480w,
-                  img/header/png_logo/89473298479287_do9xiu_c_scale,w_1600.png 1600w
-                " src="img/header/png_logo/89473298479287_do9xiu_c_scale,w_1600.png" alt="Logo RODVPM Maquetes"
-              class="max-h-10 object-contain drop-shadow-md" />
+            <picture>
+              <!-- Desktop (≥ 800px): versão grande 1200px WebP -->
+              <source
+                media="(min-width: 800px)"
+                srcset="img/header/png_logo/logo-rodvpm-lg.webp"
+                type="image/webp">
+              <!-- Tablet (≥ 400px): versão média 800px WebP -->
+              <source
+                media="(min-width: 400px)"
+                srcset="img/header/png_logo/logo-rodvpm-md.webp"
+                type="image/webp">
+              <!-- Mobile (< 400px): versão pequena 400px WebP — fallback padrão -->
+              <img
+                src="img/header/png_logo/logo-rodvpm-sm.webp"
+                alt="Logo RODVPM Maquetes"
+                class="max-h-10 object-contain drop-shadow-md"
+                loading="lazy"
+                decoding="async">
+            </picture>
           </div>
           <p class="text-gray-400 text-sm leading-relaxed text-justify">
             Especialistas em maquetes físicas, mockups e soluções de precisão.

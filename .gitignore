@@ -1,0 +1,10 @@
+# Arquivos de sistema do macOS
+.DS_Store
+
+# Configurações locais do editor (VS Code)
+.vscode/
+
+# Scripts utilitários locais de automação e otimização
+resize_images.sh
+generate_pro_array.sh
+scripts/
