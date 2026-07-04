@@ -5,6 +5,7 @@
 .vscode/
 
 # Scripts utilitários locais de automação e otimização
-resize_images.sh
-generate_pro_array.sh
 scripts/
+
+# Ambiente virtual Python
+.venv/

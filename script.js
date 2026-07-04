@@ -386,326 +386,326 @@ window.setMainImage = setMainImage;
 // ===== MODAL MAQUETES PROFISSIONAIS =====
 // Pacote de imagens da pasta Maquete Profissional
 const imagePro2 = [
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro1.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro1_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro1_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro1_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro10.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro10_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro10_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro10_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro11.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro11_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro11_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro11_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro12.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro12_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro12_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro12_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro13.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro13_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro13_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro13_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro14.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro14_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro14_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro14_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro15.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro15_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro15_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro15_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro16.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro16_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro16_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro16_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro17.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro17_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro17_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro17_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro18.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro18_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro18_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro18_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro19.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro19_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro19_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro19_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro2.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro2_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro2_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro2_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro20.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro20_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro20_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro20_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro21.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro21_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro21_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro21_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro22.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro22_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro22_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro22_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro23.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro23_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro23_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro23_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro24.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro24_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro24_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro24_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro25.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro25_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro25_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro25_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro26.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro26_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro26_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro26_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro27.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro27_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro27_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro27_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro28.HEIC",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro28_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro28_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro28_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro29.HEIC",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro29_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro29_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro29_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro3.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro3_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro3_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro3_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro30.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro30_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro30_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro30_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro31.HEIC",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro31_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro31_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro31_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro32.HEIC",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro32_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro32_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro32_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro33.HEIC",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro33_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro33_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro33_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro34.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro34_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro34_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro34_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro35.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro35_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro35_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro35_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro36.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro36_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro36_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro36_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro37.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro37_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro37_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro37_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro38.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro38_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro38_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro38_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro39.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro39_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro39_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro39_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro4.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro4_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro4_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro4_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro40.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro40_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro40_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro40_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro41.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro41_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro41_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro41_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro42.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro42_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro42_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro42_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro43.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro43_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro43_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro43_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro44.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro44_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro44_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro44_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro45.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro45_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro45_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro45_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro46.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro46_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro46_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro46_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro47.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro47_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro47_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro47_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro48.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro48_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro48_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro48_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro49.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro49_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro49_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro49_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro5.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro5_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro5_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro5_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro50.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro50_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro50_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro50_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro51.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro51_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro51_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro51_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro52.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro52_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro52_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro52_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro53.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro53_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro53_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro53_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro54.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro54_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro54_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro54_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro55.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro55_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro55_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro55_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro56.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro56_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro56_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro56_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro57.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro57_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro57_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro57_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro58.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro58_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro58_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro58_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro59.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro59_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro59_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro59_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro6.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro6_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro6_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro6_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro60.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro60_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro60_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro60_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro61.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro61_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro61_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro61_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro62.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro62_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro62_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro62_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro63.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro63_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro63_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro63_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro64.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro64_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro64_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro64_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro65.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro65_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro65_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro65_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro66.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro66_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro66_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro66_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro67.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro67_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro67_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro67_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro68.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro68_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro68_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro68_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro69.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro69_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro69_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro69_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro7.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro7_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro7_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro7_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro70.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro70_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro70_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro70_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro71.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro71_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro71_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro71_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro72.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro72_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro72_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro72_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro73.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro73_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro73_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro73_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro74.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro74_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro74_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro74_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro75.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro75_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro75_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro75_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro76.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro76_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro76_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro76_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro77.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro77_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro77_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro77_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro78.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro78_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro78_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro78_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro79.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro79_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro79_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro79_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro8.JPG",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro8_w480.jpg 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro8_w960.jpg 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro8_w1280.jpg 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro80.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro80_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro80_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro80_w1280.png 1280w"
-    },
-    { 
-        src: "img/imagens_header/Maquete Profissional/maquete_pro9.png",
-        srcset: "img/imagens_header/Maquete Profissional/responsive/maquete_pro9_w480.png 480w, img/imagens_header/Maquete Profissional/responsive/maquete_pro9_w960.png 960w, img/imagens_header/Maquete Profissional/responsive/maquete_pro9_w1280.png 1280w"
-    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro1/maquete_pro1_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro1/maquete_pro1_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro1/maquete_pro1_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro1/maquete_pro1_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro10/maquete_pro10_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro10/maquete_pro10_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro10/maquete_pro10_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro10/maquete_pro10_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro11/maquete_pro11_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro11/maquete_pro11_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro11/maquete_pro11_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro11/maquete_pro11_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro12/maquete_pro12_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro12/maquete_pro12_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro12/maquete_pro12_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro12/maquete_pro12_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro13/maquete_pro13_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro13/maquete_pro13_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro13/maquete_pro13_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro13/maquete_pro13_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro14/maquete_pro14_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro14/maquete_pro14_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro14/maquete_pro14_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro14/maquete_pro14_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro15/maquete_pro15_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro15/maquete_pro15_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro15/maquete_pro15_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro15/maquete_pro15_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro16/maquete_pro16_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro16/maquete_pro16_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro16/maquete_pro16_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro16/maquete_pro16_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro17/maquete_pro17_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro17/maquete_pro17_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro17/maquete_pro17_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro17/maquete_pro17_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro18/maquete_pro18_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro18/maquete_pro18_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro18/maquete_pro18_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro18/maquete_pro18_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro19/maquete_pro19_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro19/maquete_pro19_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro19/maquete_pro19_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro19/maquete_pro19_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro2/maquete_pro2_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro2/maquete_pro2_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro2/maquete_pro2_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro2/maquete_pro2_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro20/maquete_pro20_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro20/maquete_pro20_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro20/maquete_pro20_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro20/maquete_pro20_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro21/maquete_pro21_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro21/maquete_pro21_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro21/maquete_pro21_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro21/maquete_pro21_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro22/maquete_pro22_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro22/maquete_pro22_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro22/maquete_pro22_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro22/maquete_pro22_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro23/maquete_pro23_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro23/maquete_pro23_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro23/maquete_pro23_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro23/maquete_pro23_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro24/maquete_pro24_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro24/maquete_pro24_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro24/maquete_pro24_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro24/maquete_pro24_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro25/maquete_pro25_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro25/maquete_pro25_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro25/maquete_pro25_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro25/maquete_pro25_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro26/maquete_pro26_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro26/maquete_pro26_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro26/maquete_pro26_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro26/maquete_pro26_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro27/maquete_pro27_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro27/maquete_pro27_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro27/maquete_pro27_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro27/maquete_pro27_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro28/maquete_pro28_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro28/maquete_pro28_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro28/maquete_pro28_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro28/maquete_pro28_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro29/maquete_pro29_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro29/maquete_pro29_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro29/maquete_pro29_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro29/maquete_pro29_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro3/maquete_pro3_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro3/maquete_pro3_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro3/maquete_pro3_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro3/maquete_pro3_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro30/maquete_pro30_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro30/maquete_pro30_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro30/maquete_pro30_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro30/maquete_pro30_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro31/maquete_pro31_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro31/maquete_pro31_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro31/maquete_pro31_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro31/maquete_pro31_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro32/maquete_pro32_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro32/maquete_pro32_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro32/maquete_pro32_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro32/maquete_pro32_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro33/maquete_pro33_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro33/maquete_pro33_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro33/maquete_pro33_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro33/maquete_pro33_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro34/maquete_pro34_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro34/maquete_pro34_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro34/maquete_pro34_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro34/maquete_pro34_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro35/maquete_pro35_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro35/maquete_pro35_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro35/maquete_pro35_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro35/maquete_pro35_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro36/maquete_pro36_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro36/maquete_pro36_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro36/maquete_pro36_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro36/maquete_pro36_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro37/maquete_pro37_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro37/maquete_pro37_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro37/maquete_pro37_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro37/maquete_pro37_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro38/maquete_pro38_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro38/maquete_pro38_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro38/maquete_pro38_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro38/maquete_pro38_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro39/maquete_pro39_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro39/maquete_pro39_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro39/maquete_pro39_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro39/maquete_pro39_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro4/maquete_pro4_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro4/maquete_pro4_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro4/maquete_pro4_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro4/maquete_pro4_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro40/maquete_pro40_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro40/maquete_pro40_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro40/maquete_pro40_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro40/maquete_pro40_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro41/maquete_pro41_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro41/maquete_pro41_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro41/maquete_pro41_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro41/maquete_pro41_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro42/maquete_pro42_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro42/maquete_pro42_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro42/maquete_pro42_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro42/maquete_pro42_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro43/maquete_pro43_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro43/maquete_pro43_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro43/maquete_pro43_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro43/maquete_pro43_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro44/maquete_pro44_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro44/maquete_pro44_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro44/maquete_pro44_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro44/maquete_pro44_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro45/maquete_pro45_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro45/maquete_pro45_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro45/maquete_pro45_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro45/maquete_pro45_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro46/maquete_pro46_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro46/maquete_pro46_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro46/maquete_pro46_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro46/maquete_pro46_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro47/maquete_pro47_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro47/maquete_pro47_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro47/maquete_pro47_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro47/maquete_pro47_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro48/maquete_pro48_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro48/maquete_pro48_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro48/maquete_pro48_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro48/maquete_pro48_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro49/maquete_pro49_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro49/maquete_pro49_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro49/maquete_pro49_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro49/maquete_pro49_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro5/maquete_pro5_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro5/maquete_pro5_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro5/maquete_pro5_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro5/maquete_pro5_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro50/maquete_pro50_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro50/maquete_pro50_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro50/maquete_pro50_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro50/maquete_pro50_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro51/maquete_pro51_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro51/maquete_pro51_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro51/maquete_pro51_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro51/maquete_pro51_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro52/maquete_pro52_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro52/maquete_pro52_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro52/maquete_pro52_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro52/maquete_pro52_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro53/maquete_pro53_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro53/maquete_pro53_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro53/maquete_pro53_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro53/maquete_pro53_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro54/maquete_pro54_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro54/maquete_pro54_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro54/maquete_pro54_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro54/maquete_pro54_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro55/maquete_pro55_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro55/maquete_pro55_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro55/maquete_pro55_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro55/maquete_pro55_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro56/maquete_pro56_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro56/maquete_pro56_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro56/maquete_pro56_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro56/maquete_pro56_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro57/maquete_pro57_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro57/maquete_pro57_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro57/maquete_pro57_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro57/maquete_pro57_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro58/maquete_pro58_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro58/maquete_pro58_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro58/maquete_pro58_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro58/maquete_pro58_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro59/maquete_pro59_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro59/maquete_pro59_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro59/maquete_pro59_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro59/maquete_pro59_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro6/maquete_pro6_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro6/maquete_pro6_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro6/maquete_pro6_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro6/maquete_pro6_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro60/maquete_pro60_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro60/maquete_pro60_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro60/maquete_pro60_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro60/maquete_pro60_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro61/maquete_pro61_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro61/maquete_pro61_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro61/maquete_pro61_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro61/maquete_pro61_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro62/maquete_pro62_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro62/maquete_pro62_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro62/maquete_pro62_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro62/maquete_pro62_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro63/maquete_pro63_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro63/maquete_pro63_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro63/maquete_pro63_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro63/maquete_pro63_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro64/maquete_pro64_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro64/maquete_pro64_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro64/maquete_pro64_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro64/maquete_pro64_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro65/maquete_pro65_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro65/maquete_pro65_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro65/maquete_pro65_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro65/maquete_pro65_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro66/maquete_pro66_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro66/maquete_pro66_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro66/maquete_pro66_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro66/maquete_pro66_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro67/maquete_pro67_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro67/maquete_pro67_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro67/maquete_pro67_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro67/maquete_pro67_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro68/maquete_pro68_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro68/maquete_pro68_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro68/maquete_pro68_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro68/maquete_pro68_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro69/maquete_pro69_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro69/maquete_pro69_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro69/maquete_pro69_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro69/maquete_pro69_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro7/maquete_pro7_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro7/maquete_pro7_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro7/maquete_pro7_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro7/maquete_pro7_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro70/maquete_pro70_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro70/maquete_pro70_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro70/maquete_pro70_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro70/maquete_pro70_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro71/maquete_pro71_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro71/maquete_pro71_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro71/maquete_pro71_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro71/maquete_pro71_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro72/maquete_pro72_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro72/maquete_pro72_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro72/maquete_pro72_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro72/maquete_pro72_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro73/maquete_pro73_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro73/maquete_pro73_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro73/maquete_pro73_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro73/maquete_pro73_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro74/maquete_pro74_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro74/maquete_pro74_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro74/maquete_pro74_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro74/maquete_pro74_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro75/maquete_pro75_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro75/maquete_pro75_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro75/maquete_pro75_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro75/maquete_pro75_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro76/maquete_pro76_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro76/maquete_pro76_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro76/maquete_pro76_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro76/maquete_pro76_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro77/maquete_pro77_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro77/maquete_pro77_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro77/maquete_pro77_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro77/maquete_pro77_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro78/maquete_pro78_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro78/maquete_pro78_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro78/maquete_pro78_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro78/maquete_pro78_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro79/maquete_pro79_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro79/maquete_pro79_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro79/maquete_pro79_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro79/maquete_pro79_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro8/maquete_pro8_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro8/maquete_pro8_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_profissionais/maquete_pro8/maquete_pro8_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_profissionais/maquete_pro8/maquete_pro8_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro80/maquete_pro80_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro80/maquete_pro80_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro80/maquete_pro80_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro80/maquete_pro80_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_profissionais/maquete_pro9/maquete_pro9_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_profissionais/maquete_pro9/maquete_pro9_c_scale,w_480.png 480w, img/imagens_header/maquetes_profissionais/maquete_pro9/maquete_pro9_c_scale,w_960.png 960w, img/imagens_header/maquetes_profissionais/maquete_pro9/maquete_pro9_c_scale,w_1280.png 1280w"
+    }
 ];
 
 // Abre o modal reutilizando a mesma infraestrutura existente,
@@ -727,22 +727,70 @@ window.openPro2Modal = openPro2Modal;
 
 // ===== MODAL MAQUETES ACADÊMICAS =====
 const imageAcademica = [
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica10.jpg" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica11.jpg" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica12.JPEG" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica13.JPEG" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica14.jpg" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica15.JPEG" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica16.JPEG" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica17.jpg" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica18.jpg" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica19.JPEG" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica20.png" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica21.png" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica22.jpg" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica23.jpeg" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica24.jpeg" },
-    { src: "img/imagens_header/Maquetes acadêmicas /maquete_academica25.jpeg" },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica10/maquete_academica10_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica10/maquete_academica10_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica10/maquete_academica10_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica10/maquete_academica10_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica11/maquete_academica11_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica11/maquete_academica11_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica11/maquete_academica11_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica11/maquete_academica11_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica12/maquete_academica12_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica12/maquete_academica12_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica12/maquete_academica12_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica12/maquete_academica12_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica13/maquete_academica13_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica13/maquete_academica13_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica13/maquete_academica13_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica13/maquete_academica13_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica14/maquete_academica14_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica14/maquete_academica14_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica14/maquete_academica14_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica14/maquete_academica14_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica15/maquete_academica15_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica15/maquete_academica15_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica15/maquete_academica15_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica15/maquete_academica15_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica16/maquete_academica16_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica16/maquete_academica16_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica16/maquete_academica16_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica16/maquete_academica16_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica17/maquete_academica17_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica17/maquete_academica17_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica17/maquete_academica17_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica17/maquete_academica17_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica18/maquete_academica18_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica18/maquete_academica18_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica18/maquete_academica18_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica18/maquete_academica18_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica19/maquete_academica19_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica19/maquete_academica19_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica19/maquete_academica19_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica19/maquete_academica19_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica20/maquete_academica20_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica20/maquete_academica20_c_scale,w_480.png 480w, img/imagens_header/maquetes_academicas/maquete_academica20/maquete_academica20_c_scale,w_960.png 960w, img/imagens_header/maquetes_academicas/maquete_academica20/maquete_academica20_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica21/maquete_academica21_c_scale,w_1280.png",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica21/maquete_academica21_c_scale,w_480.png 480w, img/imagens_header/maquetes_academicas/maquete_academica21/maquete_academica21_c_scale,w_960.png 960w, img/imagens_header/maquetes_academicas/maquete_academica21/maquete_academica21_c_scale,w_1280.png 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica22/maquete_academica22_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica22/maquete_academica22_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica22/maquete_academica22_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica22/maquete_academica22_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica23/maquete_academica23_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica23/maquete_academica23_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica23/maquete_academica23_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica23/maquete_academica23_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica24/maquete_academica24_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica24/maquete_academica24_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica24/maquete_academica24_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica24/maquete_academica24_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_academicas/maquete_academica25/maquete_academica25_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_academicas/maquete_academica25/maquete_academica25_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_academicas/maquete_academica25/maquete_academica25_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_academicas/maquete_academica25/maquete_academica25_c_scale,w_1280.jpg 1280w"
+    }
 ];
 
 function openAcademicaModal() {
@@ -758,38 +806,134 @@ window.openAcademicaModal = openAcademicaModal;
 
 // ===== MODAL MAQUETES CENOGRÁFICAS =====
 const imageCenografica = [
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica10.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica11.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica12.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica13.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica14.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica15.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica16.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica17.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica18.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica19.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica20.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica21.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica22.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica23.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica24.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica25.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica26.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica27.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica28.JPEG" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica29.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica30.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica31.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica32.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica33.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica34.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica35.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica36.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica37.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica38.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica39.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica40.jpeg" },
-    { src: "img/imagens_header/Maquetes cenográficas/maquete_cenografica41.jpeg" },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica10/maquete_cenografica10_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica10/maquete_cenografica10_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica10/maquete_cenografica10_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica10/maquete_cenografica10_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica11/maquete_cenografica11_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica11/maquete_cenografica11_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica11/maquete_cenografica11_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica11/maquete_cenografica11_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica12/maquete_cenografica12_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica12/maquete_cenografica12_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica12/maquete_cenografica12_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica12/maquete_cenografica12_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica13/maquete_cenografica13_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica13/maquete_cenografica13_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica13/maquete_cenografica13_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica13/maquete_cenografica13_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica14/maquete_cenografica14_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica14/maquete_cenografica14_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica14/maquete_cenografica14_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica14/maquete_cenografica14_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica15/maquete_cenografica15_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica15/maquete_cenografica15_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica15/maquete_cenografica15_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica15/maquete_cenografica15_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica16/maquete_cenografica16_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica16/maquete_cenografica16_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica16/maquete_cenografica16_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica16/maquete_cenografica16_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica17/maquete_cenografica17_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica17/maquete_cenografica17_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica17/maquete_cenografica17_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica17/maquete_cenografica17_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica18/maquete_cenografica18_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica18/maquete_cenografica18_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica18/maquete_cenografica18_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica18/maquete_cenografica18_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica19/maquete_cenografica19_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica19/maquete_cenografica19_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica19/maquete_cenografica19_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica19/maquete_cenografica19_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica20/maquete_cenografica20_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica20/maquete_cenografica20_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica20/maquete_cenografica20_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica20/maquete_cenografica20_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica21/maquete_cenografica21_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica21/maquete_cenografica21_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica21/maquete_cenografica21_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica21/maquete_cenografica21_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica22/maquete_cenografica22_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica22/maquete_cenografica22_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica22/maquete_cenografica22_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica22/maquete_cenografica22_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica23/maquete_cenografica23_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica23/maquete_cenografica23_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica23/maquete_cenografica23_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica23/maquete_cenografica23_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica24/maquete_cenografica24_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica24/maquete_cenografica24_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica24/maquete_cenografica24_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica24/maquete_cenografica24_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica25/maquete_cenografica25_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica25/maquete_cenografica25_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica25/maquete_cenografica25_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica25/maquete_cenografica25_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica26/maquete_cenografica26_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica26/maquete_cenografica26_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica26/maquete_cenografica26_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica26/maquete_cenografica26_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica27/maquete_cenografica27_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica27/maquete_cenografica27_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica27/maquete_cenografica27_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica27/maquete_cenografica27_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica28/maquete_cenografica28_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica28/maquete_cenografica28_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica28/maquete_cenografica28_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica28/maquete_cenografica28_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica29/maquete_cenografica29_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica29/maquete_cenografica29_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica29/maquete_cenografica29_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica29/maquete_cenografica29_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica30/maquete_cenografica30_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica30/maquete_cenografica30_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica30/maquete_cenografica30_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica30/maquete_cenografica30_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica31/maquete_cenografica31_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica31/maquete_cenografica31_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica31/maquete_cenografica31_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica31/maquete_cenografica31_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica32/maquete_cenografica32_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica32/maquete_cenografica32_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica32/maquete_cenografica32_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica32/maquete_cenografica32_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica33/maquete_cenografica33_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica33/maquete_cenografica33_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica33/maquete_cenografica33_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica33/maquete_cenografica33_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica34/maquete_cenografica34_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica34/maquete_cenografica34_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica34/maquete_cenografica34_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica34/maquete_cenografica34_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica35/maquete_cenografica35_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica35/maquete_cenografica35_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica35/maquete_cenografica35_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica35/maquete_cenografica35_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica36/maquete_cenografica36_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica36/maquete_cenografica36_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica36/maquete_cenografica36_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica36/maquete_cenografica36_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica37/maquete_cenografica37_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica37/maquete_cenografica37_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica37/maquete_cenografica37_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica37/maquete_cenografica37_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica38/maquete_cenografica38_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica38/maquete_cenografica38_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica38/maquete_cenografica38_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica38/maquete_cenografica38_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica39/maquete_cenografica39_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica39/maquete_cenografica39_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica39/maquete_cenografica39_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica39/maquete_cenografica39_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica40/maquete_cenografica40_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica40/maquete_cenografica40_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica40/maquete_cenografica40_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica40/maquete_cenografica40_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_cenograficas/maquete_cenografica41/maquete_cenografica41_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_cenograficas/maquete_cenografica41/maquete_cenografica41_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_cenograficas/maquete_cenografica41/maquete_cenografica41_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_cenograficas/maquete_cenografica41/maquete_cenografica41_c_scale,w_1280.jpg 1280w"
+    }
 ];
 
 function openCenograficaModal() {
@@ -805,17 +949,50 @@ window.openCenograficaModal = openCenograficaModal;
 
 // ===== MODAL MAQUETES ESCOLARES =====
 const imageEscolar = [
-    { src: "img/imagens_header/Maquetes escolares /6616A1A0-6807-4CF8-9B2B-A35E811E937E.jpg" },
-    { src: "img/imagens_header/Maquetes escolares /IMG_2768.JPEG" },
-    { src: "img/imagens_header/Maquetes escolares /IMG_8413.JPEG" },
-    { src: "img/imagens_header/Maquetes escolares /IMG_9675.JPEG" },
-    { src: "img/imagens_header/Maquetes escolares /WhatsApp Image 2025-12-02 at 22.30.21.jpeg" },
-    { src: "img/imagens_header/Maquetes escolares /WhatsApp Image 2025-12-02 at 22.31.26.jpeg" },
-    { src: "img/imagens_header/Maquetes escolares /WhatsApp Image 2025-12-02 at 22.40.17 (13).jpeg" },
-    { src: "img/imagens_header/Maquetes escolares /WhatsApp Image 2025-12-02 at 22.40.17 (14).jpeg" },
-    { src: "img/imagens_header/Maquetes escolares /WhatsApp Image 2025-12-02 at 22.40.17 (19).jpeg" },
-    { src: "img/imagens_header/Maquetes escolares /WhatsApp Image 2025-12-02 at 22.40.17 (20).jpeg" },
-    { src: "img/imagens_header/Maquetes escolares /WhatsApp Image 2025-12-02 at 22.40.17 (7).jpeg" },
+    {
+        src: "img/imagens_header/maquetes_escolares/6616a1a0_6807_4cf8_9b2b_a35e811e937e/6616a1a0_6807_4cf8_9b2b_a35e811e937e_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_escolares/6616a1a0_6807_4cf8_9b2b_a35e811e937e/6616a1a0_6807_4cf8_9b2b_a35e811e937e_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_escolares/6616a1a0_6807_4cf8_9b2b_a35e811e937e/6616a1a0_6807_4cf8_9b2b_a35e811e937e_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_escolares/6616a1a0_6807_4cf8_9b2b_a35e811e937e/6616a1a0_6807_4cf8_9b2b_a35e811e937e_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_escolares/img_2768/img_2768_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_escolares/img_2768/img_2768_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_escolares/img_2768/img_2768_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_escolares/img_2768/img_2768_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_escolares/img_8413/img_8413_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_escolares/img_8413/img_8413_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_escolares/img_8413/img_8413_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_escolares/img_8413/img_8413_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_escolares/img_9675/img_9675_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_escolares/img_9675/img_9675_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_escolares/img_9675/img_9675_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_escolares/img_9675/img_9675_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_30_21/whatsapp_image_2025_12_02_at_22_30_21_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_30_21/whatsapp_image_2025_12_02_at_22_30_21_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_30_21/whatsapp_image_2025_12_02_at_22_30_21_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_30_21/whatsapp_image_2025_12_02_at_22_30_21_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_31_26/whatsapp_image_2025_12_02_at_22_31_26_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_31_26/whatsapp_image_2025_12_02_at_22_31_26_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_31_26/whatsapp_image_2025_12_02_at_22_31_26_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_31_26/whatsapp_image_2025_12_02_at_22_31_26_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_13/whatsapp_image_2025_12_02_at_22_40_17_13_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_13/whatsapp_image_2025_12_02_at_22_40_17_13_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_13/whatsapp_image_2025_12_02_at_22_40_17_13_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_13/whatsapp_image_2025_12_02_at_22_40_17_13_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_14/whatsapp_image_2025_12_02_at_22_40_17_14_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_14/whatsapp_image_2025_12_02_at_22_40_17_14_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_14/whatsapp_image_2025_12_02_at_22_40_17_14_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_14/whatsapp_image_2025_12_02_at_22_40_17_14_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_19/whatsapp_image_2025_12_02_at_22_40_17_19_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_19/whatsapp_image_2025_12_02_at_22_40_17_19_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_19/whatsapp_image_2025_12_02_at_22_40_17_19_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_19/whatsapp_image_2025_12_02_at_22_40_17_19_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_20/whatsapp_image_2025_12_02_at_22_40_17_20_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_20/whatsapp_image_2025_12_02_at_22_40_17_20_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_20/whatsapp_image_2025_12_02_at_22_40_17_20_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_20/whatsapp_image_2025_12_02_at_22_40_17_20_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_7/whatsapp_image_2025_12_02_at_22_40_17_7_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_7/whatsapp_image_2025_12_02_at_22_40_17_7_c_scale,w_480.jpg 480w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_7/whatsapp_image_2025_12_02_at_22_40_17_7_c_scale,w_960.jpg 960w, img/imagens_header/maquetes_escolares/whatsapp_image_2025_12_02_at_22_40_17_7/whatsapp_image_2025_12_02_at_22_40_17_7_c_scale,w_1280.jpg 1280w"
+    }
 ];
 
 function openEscolarModal() {
@@ -831,13 +1008,34 @@ window.openEscolarModal = openEscolarModal;
 
 // ===== MODAL PROJETOS DIVERSOS =====
 const imageDiversos = [
-    { src: "img/imagens_header/Projetos diversos/maquete_diversos10.jpg" },
-    { src: "img/imagens_header/Projetos diversos/maquete_diversos11.jpg" },
-    { src: "img/imagens_header/Projetos diversos/maquete_diversos12.jpg" },
-    { src: "img/imagens_header/Projetos diversos/maquete_diversos13.jpeg" },
-    { src: "img/imagens_header/Projetos diversos/maquete_diversos14.jpeg" },
-    { src: "img/imagens_header/Projetos diversos/maquete_diversos15.jpeg" },
-    { src: "img/imagens_header/Projetos diversos/maquete_diversos16.jpeg" },
+    {
+        src: "img/imagens_header/projetos_diversos/maquete_diversos10/maquete_diversos10_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/projetos_diversos/maquete_diversos10/maquete_diversos10_c_scale,w_480.jpg 480w, img/imagens_header/projetos_diversos/maquete_diversos10/maquete_diversos10_c_scale,w_960.jpg 960w, img/imagens_header/projetos_diversos/maquete_diversos10/maquete_diversos10_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/projetos_diversos/maquete_diversos11/maquete_diversos11_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/projetos_diversos/maquete_diversos11/maquete_diversos11_c_scale,w_480.jpg 480w, img/imagens_header/projetos_diversos/maquete_diversos11/maquete_diversos11_c_scale,w_960.jpg 960w, img/imagens_header/projetos_diversos/maquete_diversos11/maquete_diversos11_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/projetos_diversos/maquete_diversos12/maquete_diversos12_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/projetos_diversos/maquete_diversos12/maquete_diversos12_c_scale,w_480.jpg 480w, img/imagens_header/projetos_diversos/maquete_diversos12/maquete_diversos12_c_scale,w_960.jpg 960w, img/imagens_header/projetos_diversos/maquete_diversos12/maquete_diversos12_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/projetos_diversos/maquete_diversos13/maquete_diversos13_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/projetos_diversos/maquete_diversos13/maquete_diversos13_c_scale,w_480.jpg 480w, img/imagens_header/projetos_diversos/maquete_diversos13/maquete_diversos13_c_scale,w_960.jpg 960w, img/imagens_header/projetos_diversos/maquete_diversos13/maquete_diversos13_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/projetos_diversos/maquete_diversos14/maquete_diversos14_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/projetos_diversos/maquete_diversos14/maquete_diversos14_c_scale,w_480.jpg 480w, img/imagens_header/projetos_diversos/maquete_diversos14/maquete_diversos14_c_scale,w_960.jpg 960w, img/imagens_header/projetos_diversos/maquete_diversos14/maquete_diversos14_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/projetos_diversos/maquete_diversos15/maquete_diversos15_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/projetos_diversos/maquete_diversos15/maquete_diversos15_c_scale,w_480.jpg 480w, img/imagens_header/projetos_diversos/maquete_diversos15/maquete_diversos15_c_scale,w_960.jpg 960w, img/imagens_header/projetos_diversos/maquete_diversos15/maquete_diversos15_c_scale,w_1280.jpg 1280w"
+    },
+    {
+        src: "img/imagens_header/projetos_diversos/maquete_diversos16/maquete_diversos16_c_scale,w_1280.jpg",
+        srcset: "img/imagens_header/projetos_diversos/maquete_diversos16/maquete_diversos16_c_scale,w_480.jpg 480w, img/imagens_header/projetos_diversos/maquete_diversos16/maquete_diversos16_c_scale,w_960.jpg 960w, img/imagens_header/projetos_diversos/maquete_diversos16/maquete_diversos16_c_scale,w_1280.jpg 1280w"
+    }
 ];
 
 function openDiversosModal() {
